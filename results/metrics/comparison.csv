@@ -1,0 +1,2 @@
+algorithm,modularity,num_communities,avg_community_size
+leiden,0.5394137430874735,3765,354.41195219123506

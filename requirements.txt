@@ -1,0 +1,5 @@
+networkx>=3.0
+pandas>=2.0
+python-louvain>=0.16
+leidenalg>=0.10.0
+igraph>=0.10.0

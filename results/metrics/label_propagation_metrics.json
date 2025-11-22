@@ -1,0 +1,4968 @@
+{
+    "algorithm": "label_propagation",
+    "modularity": 0.4807120371035401,
+    "bubble_metrics": {
+        "0": {
+            "size": 275130,
+            "internal_density": 8.257078361949963e-05,
+            "conductance": 0.02406920939946737,
+            "cut_size": 154150
+        },
+        "1": {
+            "size": 916699,
+            "internal_density": 1.2399595239608713e-05,
+            "conductance": 0.03572562281036155,
+            "cut_size": 246470
+        },
+        "3": {
+            "size": 6579,
+            "internal_density": 0.0021277519047102106,
+            "conductance": 0.2660976017980537,
+            "cut_size": 33387
+        },
+        "4": {
+            "size": 37,
+            "internal_density": 0.05555555555555555,
+            "conductance": 0.03896103896103896,
+            "cut_size": 3
+        },
+        "5": {
+            "size": 12,
+            "internal_density": 0.15151515151515152,
+            "conductance": 0.2857142857142857,
+            "cut_size": 8
+        },
+        "15": {
+            "size": 104,
+            "internal_density": 0.06777445855115757,
+            "conductance": 0.14386792452830188,
+            "cut_size": 122
+        },
+        "19": {
+            "size": 35,
+            "internal_density": 0.06050420168067227,
+            "conductance": 0.35135135135135137,
+            "cut_size": 39
+        },
+        "24": {
+            "size": 10,
+            "internal_density": 0.3111111111111111,
+            "conductance": 0.42857142857142855,
+            "cut_size": 21
+        },
+        "31": {
+            "size": 167,
+            "internal_density": 0.011976047904191617,
+            "conductance": 0.2420091324200913,
+            "cut_size": 106
+        },
+        "35": {
+            "size": 14,
+            "internal_density": 0.14285714285714285,
+            "conductance": 0.4583333333333333,
+            "cut_size": 22
+        },
+        "38": {
+            "size": 19,
+            "internal_density": 0.34502923976608185,
+            "conductance": 0.5042016806722689,
+            "cut_size": 120
+        },
+        "40": {
+            "size": 21,
+            "internal_density": 0.10476190476190476,
+            "conductance": 0.10204081632653061,
+            "cut_size": 5
+        },
+        "45": {
+            "size": 21,
+            "internal_density": 0.09523809523809523,
+            "conductance": 0.16666666666666666,
+            "cut_size": 8
+        },
+        "46": {
+            "size": 2148,
+            "internal_density": 0.000931098696461825,
+            "conductance": 0.2867109634551495,
+            "cut_size": 1726
+        },
+        "48": {
+            "size": 9802,
+            "internal_density": 0.0002042898112345906,
+            "conductance": 0.39509939898289415,
+            "cut_size": 12819
+        },
+        "51": {
+            "size": 23,
+            "internal_density": 0.08695652173913043,
+            "conductance": 0.40540540540540543,
+            "cut_size": 30
+        },
+        "57": {
+            "size": 22,
+            "internal_density": 0.1038961038961039,
+            "conductance": 0.1111111111111111,
+            "cut_size": 6
+        },
+        "58": {
+            "size": 11,
+            "internal_density": 0.18181818181818182,
+            "conductance": 0.5348837209302325,
+            "cut_size": 23
+        },
+        "65": {
+            "size": 12,
+            "internal_density": 0.3939393939393939,
+            "conductance": 0.16129032258064516,
+            "cut_size": 10
+        },
+        "68": {
+            "size": 223,
+            "internal_density": 0.009009009009009009,
+            "conductance": 0.32628398791540786,
+            "cut_size": 216
+        },
+        "71": {
+            "size": 83,
+            "internal_density": 0.031148986188657066,
+            "conductance": 0.472636815920398,
+            "cut_size": 190
+        },
+        "73": {
+            "size": 262,
+            "internal_density": 0.007633587786259542,
+            "conductance": 0.3626373626373626,
+            "cut_size": 297
+        },
+        "74": {
+            "size": 16,
+            "internal_density": 0.15833333333333333,
+            "conductance": 0.3333333333333333,
+            "cut_size": 19
+        },
+        "77": {
+            "size": 17,
+            "internal_density": 0.11764705882352941,
+            "conductance": 0.21951219512195122,
+            "cut_size": 9
+        },
+        "78": {
+            "size": 121,
+            "internal_density": 0.0174931129476584,
+            "conductance": 0.45021645021645024,
+            "cut_size": 208
+        },
+        "80": {
+            "size": 93,
+            "internal_density": 0.02314165497896213,
+            "conductance": 0.3288135593220339,
+            "cut_size": 97
+        },
+        "81": {
+            "size": 25,
+            "internal_density": 0.09,
+            "conductance": 0.3493975903614458,
+            "cut_size": 29
+        },
+        "83": {
+            "size": 47,
+            "internal_density": 0.0425531914893617,
+            "conductance": 0.08,
+            "cut_size": 8
+        },
+        "84": {
+            "size": 12,
+            "internal_density": 0.22727272727272727,
+            "conductance": 0.3181818181818182,
+            "cut_size": 14
+        },
+        "85": {
+            "size": 10,
+            "internal_density": 0.2,
+            "conductance": 0.4,
+            "cut_size": 12
+        },
+        "86": {
+            "size": 15,
+            "internal_density": 0.13333333333333333,
+            "conductance": 0.2,
+            "cut_size": 7
+        },
+        "88": {
+            "size": 146,
+            "internal_density": 0.0136986301369863,
+            "conductance": 0.17847025495750707,
+            "cut_size": 63
+        },
+        "89": {
+            "size": 17,
+            "internal_density": 0.11764705882352941,
+            "conductance": 0.21951219512195122,
+            "cut_size": 9
+        },
+        "90": {
+            "size": 38,
+            "internal_density": 0.05263157894736842,
+            "conductance": 0.11904761904761904,
+            "cut_size": 10
+        },
+        "93": {
+            "size": 156,
+            "internal_density": 0.01282051282051282,
+            "conductance": 0.429097605893186,
+            "cut_size": 233
+        },
+        "94": {
+            "size": 48,
+            "internal_density": 0.0425531914893617,
+            "conductance": 0.4,
+            "cut_size": 64
+        },
+        "95": {
+            "size": 25,
+            "internal_density": 0.08,
+            "conductance": 0.3684210526315789,
+            "cut_size": 28
+        },
+        "97": {
+            "size": 10,
+            "internal_density": 0.2,
+            "conductance": 0.3076923076923077,
+            "cut_size": 8
+        },
+        "108": {
+            "size": 18,
+            "internal_density": 0.1111111111111111,
+            "conductance": 0.5072463768115942,
+            "cut_size": 35
+        },
+        "110": {
+            "size": 326,
+            "internal_density": 0.006172722982538933,
+            "conductance": 0.3594515181194907,
+            "cut_size": 367
+        },
+        "112": {
+            "size": 1142,
+            "internal_density": 0.0017528483786152498,
+            "conductance": 0.35076748152359294,
+            "cut_size": 1234
+        },
+        "113": {
+            "size": 901,
+            "internal_density": 0.002224688617585399,
+            "conductance": 0.2582236842105263,
+            "cut_size": 628
+        },
+        "114": {
+            "size": 17,
+            "internal_density": 0.125,
+            "conductance": 0.22727272727272727,
+            "cut_size": 10
+        },
+        "120": {
+            "size": 12,
+            "internal_density": 0.21212121212121213,
+            "conductance": 0.2,
+            "cut_size": 7
+        },
+        "122": {
+            "size": 17,
+            "internal_density": 0.25,
+            "conductance": 0.22727272727272727,
+            "cut_size": 20
+        },
+        "124": {
+            "size": 749,
+            "internal_density": 0.00267379679144385,
+            "conductance": 0.42117465224111283,
+            "cut_size": 1090
+        },
+        "125": {
+            "size": 89,
+            "internal_density": 0.02247191011235955,
+            "conductance": 0.36231884057971014,
+            "cut_size": 100
+        },
+        "126": {
+            "size": 102,
+            "internal_density": 0.0256260920209668,
+            "conductance": 0.2,
+            "cut_size": 66
+        },
+        "130": {
+            "size": 14,
+            "internal_density": 0.15384615384615385,
+            "conductance": 0.582089552238806,
+            "cut_size": 39
+        },
+        "131": {
+            "size": 29,
+            "internal_density": 0.06896551724137931,
+            "conductance": 0.2911392405063291,
+            "cut_size": 23
+        },
+        "133": {
+            "size": 73,
+            "internal_density": 0.05745814307458143,
+            "conductance": 0.21148825065274152,
+            "cut_size": 81
+        },
+        "134": {
+            "size": 702,
+            "internal_density": 0.0028530670470756064,
+            "conductance": 0.4949640287769784,
+            "cut_size": 1376
+        },
+        "136": {
+            "size": 3059,
+            "internal_density": 0.0006542360393832991,
+            "conductance": 0.31189565999550256,
+            "cut_size": 2774
+        },
+        "137": {
+            "size": 28,
+            "internal_density": 0.07142857142857142,
+            "conductance": 0.2602739726027397,
+            "cut_size": 19
+        },
+        "146": {
+            "size": 192,
+            "internal_density": 0.010416666666666666,
+            "conductance": 0.2450592885375494,
+            "cut_size": 124
+        },
+        "147": {
+            "size": 10,
+            "internal_density": 0.2,
+            "conductance": 0.35714285714285715,
+            "cut_size": 10
+        },
+        "148": {
+            "size": 12,
+            "internal_density": 0.16666666666666666,
+            "conductance": 0.2903225806451613,
+            "cut_size": 9
+        },
+        "149": {
+            "size": 10,
+            "internal_density": 0.2,
+            "conductance": 0.45454545454545453,
+            "cut_size": 15
+        },
+        "150": {
+            "size": 24,
+            "internal_density": 0.10507246376811594,
+            "conductance": 0.4020618556701031,
+            "cut_size": 39
+        },
+        "158": {
+            "size": 10,
+            "internal_density": 0.2,
+            "conductance": 0.3076923076923077,
+            "cut_size": 8
+        },
+        "161": {
+            "size": 29,
+            "internal_density": 0.07389162561576355,
+            "conductance": 0.2682926829268293,
+            "cut_size": 22
+        },
+        "163": {
+            "size": 58,
+            "internal_density": 0.04053236539624924,
+            "conductance": 0.27956989247311825,
+            "cut_size": 52
+        },
+        "166": {
+            "size": 129,
+            "internal_density": 0.018289728682170544,
+            "conductance": 0.33916849015317285,
+            "cut_size": 155
+        },
+        "170": {
+            "size": 1172,
+            "internal_density": 0.0017778917701098504,
+            "conductance": 0.38492563650113437,
+            "cut_size": 1527
+        },
+        "171": {
+            "size": 142,
+            "internal_density": 0.014184397163120567,
+            "conductance": 0.4641509433962264,
+            "cut_size": 246
+        },
+        "172": {
+            "size": 15,
+            "internal_density": 0.14285714285714285,
+            "conductance": 0.03225806451612903,
+            "cut_size": 1
+        },
+        "173": {
+            "size": 602,
+            "internal_density": 0.0033277870216306157,
+            "conductance": 0.3992015968063872,
+            "cut_size": 800
+        },
+        "176": {
+            "size": 358,
+            "internal_density": 0.0056022408963585435,
+            "conductance": 0.4700222057735011,
+            "cut_size": 635
+        },
+        "178": {
+            "size": 830,
+            "internal_density": 0.0024241719592483324,
+            "conductance": 0.4706442399238337,
+            "cut_size": 1483
+        },
+        "180": {
+            "size": 15,
+            "internal_density": 0.13333333333333333,
+            "conductance": 0.06666666666666667,
+            "cut_size": 2
+        },
+        "188": {
+            "size": 209,
+            "internal_density": 0.009569377990430622,
+            "conductance": 0.023474178403755867,
+            "cut_size": 10
+        },
+        "196": {
+            "size": 4266,
+            "internal_density": 0.00046915302380006255,
+            "conductance": 0.33395755305867664,
+            "cut_size": 4280
+        },
+        "197": {
+            "size": 33,
+            "internal_density": 0.06060606060606061,
+            "conductance": 0.3263157894736842,
+            "cut_size": 31
+        },
+        "198": {
+            "size": 192,
+            "internal_density": 0.010416666666666666,
+            "conductance": 0.4238310708898944,
+            "cut_size": 281
+        },
+        "200": {
+            "size": 1148,
+            "internal_density": 0.0017421602787456446,
+            "conductance": 0.35868045848476376,
+            "cut_size": 1283
+        },
+        "205": {
+            "size": 759,
+            "internal_density": 0.002638522427440633,
+            "conductance": 0.26772793053545585,
+            "cut_size": 555
+        },
+        "208": {
+            "size": 22,
+            "internal_density": 0.09090909090909091,
+            "conductance": 0.25,
+            "cut_size": 14
+        },
+        "213": {
+            "size": 4319,
+            "internal_density": 0.00046382084783019243,
+            "conductance": 0.2594178082191781,
+            "cut_size": 3030
+        },
+        "222": {
+            "size": 1620,
+            "internal_density": 0.0012345679012345679,
+            "conductance": 0.29146608315098466,
+            "cut_size": 1332
+        },
+        "224": {
+            "size": 19,
+            "internal_density": 0.10526315789473684,
+            "conductance": 0.16279069767441862,
+            "cut_size": 7
+        },
+        "226": {
+            "size": 28,
+            "internal_density": 0.07142857142857142,
+            "conductance": 0.15625,
+            "cut_size": 10
+        },
+        "234": {
+            "size": 12779,
+            "internal_density": 0.00015664149848874454,
+            "conductance": 0.40936590772641207,
+            "cut_size": 17728
+        },
+        "237": {
+            "size": 349,
+            "internal_density": 0.00584593090274347,
+            "conductance": 0.372236958443855,
+            "cut_size": 421
+        },
+        "238": {
+            "size": 17,
+            "internal_density": 0.11764705882352941,
+            "conductance": 0.3191489361702128,
+            "cut_size": 15
+        },
+        "239": {
+            "size": 1759,
+            "internal_density": 0.0011370096645821489,
+            "conductance": 0.07057890563045202,
+            "cut_size": 267
+        },
+        "240": {
+            "size": 70,
+            "internal_density": 0.028985507246376812,
+            "conductance": 0.3170731707317073,
+            "cut_size": 65
+        },
+        "241": {
+            "size": 227,
+            "internal_density": 0.008693618182526997,
+            "conductance": 0.434010152284264,
+            "cut_size": 342
+        },
+        "244": {
+            "size": 345,
+            "internal_density": 0.005797101449275362,
+            "conductance": 0.4017391304347826,
+            "cut_size": 462
+        },
+        "246": {
+            "size": 13,
+            "internal_density": 0.24358974358974358,
+            "conductance": 0.2692307692307692,
+            "cut_size": 14
+        },
+        "247": {
+            "size": 239,
+            "internal_density": 0.00900108997573925,
+            "conductance": 0.33764553686934023,
+            "cut_size": 261
+        },
+        "250": {
+            "size": 45,
+            "internal_density": 0.044444444444444446,
+            "conductance": 0.3282442748091603,
+            "cut_size": 43
+        },
+        "253": {
+            "size": 16,
+            "internal_density": 0.125,
+            "conductance": 0.3617021276595745,
+            "cut_size": 17
+        },
+        "254": {
+            "size": 292,
+            "internal_density": 0.00684931506849315,
+            "conductance": 0.3518930957683742,
+            "cut_size": 316
+        },
+        "257": {
+            "size": 298,
+            "internal_density": 0.006711409395973154,
+            "conductance": 0.15021459227467812,
+            "cut_size": 105
+        },
+        "258": {
+            "size": 10,
+            "internal_density": 0.2,
+            "conductance": 0.3333333333333333,
+            "cut_size": 9
+        },
+        "260": {
+            "size": 13,
+            "internal_density": 0.15384615384615385,
+            "conductance": 0.2,
+            "cut_size": 6
+        },
+        "262": {
+            "size": 62,
+            "internal_density": 0.03225806451612903,
+            "conductance": 0.5080645161290323,
+            "cut_size": 126
+        },
+        "263": {
+            "size": 16,
+            "internal_density": 0.14166666666666666,
+            "conductance": 0.423728813559322,
+            "cut_size": 25
+        },
+        "264": {
+            "size": 364,
+            "internal_density": 0.005494505494505495,
+            "conductance": 0.43058823529411766,
+            "cut_size": 549
+        },
+        "272": {
+            "size": 74,
+            "internal_density": 0.02702702702702703,
+            "conductance": 0.13609467455621302,
+            "cut_size": 23
+        },
+        "274": {
+            "size": 64,
+            "internal_density": 0.03125,
+            "conductance": 0.3471502590673575,
+            "cut_size": 67
+        },
+        "277": {
+            "size": 84,
+            "internal_density": 0.023809523809523808,
+            "conductance": 0.23853211009174313,
+            "cut_size": 52
+        },
+        "286": {
+            "size": 103,
+            "internal_density": 0.019417475728155338,
+            "conductance": 0.10526315789473684,
+            "cut_size": 24
+        },
+        "290": {
+            "size": 3592,
+            "internal_density": 0.0005572580300044841,
+            "conductance": 0.2227508650519031,
+            "cut_size": 2060
+        },
+        "292": {
+            "size": 28,
+            "internal_density": 0.07142857142857142,
+            "conductance": 0.2987012987012987,
+            "cut_size": 23
+        },
+        "304": {
+            "size": 4319,
+            "internal_density": 0.0004640353314592469,
+            "conductance": 0.2604682960177747,
+            "cut_size": 3048
+        },
+        "307": {
+            "size": 29,
+            "internal_density": 0.06896551724137931,
+            "conductance": 0.4766355140186916,
+            "cut_size": 51
+        },
+        "308": {
+            "size": 16,
+            "internal_density": 0.125,
+            "conductance": 0.2857142857142857,
+            "cut_size": 12
+        },
+        "310": {
+            "size": 87,
+            "internal_density": 0.034482758620689655,
+            "conductance": 0.06859205776173286,
+            "cut_size": 19
+        },
+        "311": {
+            "size": 61,
+            "internal_density": 0.03278688524590164,
+            "conductance": 0.3548387096774194,
+            "cut_size": 66
+        },
+        "312": {
+            "size": 21,
+            "internal_density": 0.06190476190476191,
+            "conductance": 0.2777777777777778,
+            "cut_size": 10
+        },
+        "314": {
+            "size": 51,
+            "internal_density": 0.0392156862745098,
+            "conductance": 0.12280701754385964,
+            "cut_size": 14
+        },
+        "318": {
+            "size": 44,
+            "internal_density": 0.045454545454545456,
+            "conductance": 0.36764705882352944,
+            "cut_size": 50
+        },
+        "319": {
+            "size": 40,
+            "internal_density": 0.05,
+            "conductance": 0.1958762886597938,
+            "cut_size": 19
+        },
+        "321": {
+            "size": 39,
+            "internal_density": 0.05128205128205128,
+            "conductance": 0.4647887323943662,
+            "cut_size": 66
+        },
+        "322": {
+            "size": 22,
+            "internal_density": 0.09090909090909091,
+            "conductance": 0.17647058823529413,
+            "cut_size": 9
+        },
+        "324": {
+            "size": 1039,
+            "internal_density": 0.0019249278152069298,
+            "conductance": 0.2710674157303371,
+            "cut_size": 772
+        },
+        "326": {
+            "size": 19,
+            "internal_density": 0.10526315789473684,
+            "conductance": 0.02702702702702703,
+            "cut_size": 1
+        },
+        "331": {
+            "size": 157,
+            "internal_density": 0.012738853503184714,
+            "conductance": 0.391812865497076,
+            "cut_size": 201
+        },
+        "332": {
+            "size": 58,
+            "internal_density": 0.034482758620689655,
+            "conductance": 0.03389830508474576,
+            "cut_size": 4
+        },
+        "334": {
+            "size": 34,
+            "internal_density": 0.06060606060606061,
+            "conductance": 0.3761467889908257,
+            "cut_size": 41
+        },
+        "337": {
+            "size": 48,
+            "internal_density": 0.041666666666666664,
+            "conductance": 0.4303030303030303,
+            "cut_size": 71
+        },
+        "339": {
+            "size": 88,
+            "internal_density": 0.022727272727272728,
+            "conductance": 0.10309278350515463,
+            "cut_size": 20
+        },
+        "343": {
+            "size": 83,
+            "internal_density": 0.02585953570379077,
+            "conductance": 0.2931726907630522,
+            "cut_size": 73
+        },
+        "345": {
+            "size": 211,
+            "internal_density": 0.009478672985781991,
+            "conductance": 0.328,
+            "cut_size": 205
+        },
+        "346": {
+            "size": 15,
+            "internal_density": 0.13333333333333333,
+            "conductance": 0.24324324324324326,
+            "cut_size": 9
+        },
+        "349": {
+            "size": 160,
+            "internal_density": 0.0125,
+            "conductance": 0.37524557956778,
+            "cut_size": 191
+        },
+        "351": {
+            "size": 111,
+            "internal_density": 0.018018018018018018,
+            "conductance": 0.23076923076923078,
+            "cut_size": 66
+        },
+        "358": {
+            "size": 20,
+            "internal_density": 0.06842105263157895,
+            "conductance": 0.5,
+            "cut_size": 26
+        },
+        "359": {
+            "size": 261,
+            "internal_density": 0.007662835249042145,
+            "conductance": 0.39323220536756126,
+            "cut_size": 337
+        },
+        "360": {
+            "size": 40,
+            "internal_density": 0.05,
+            "conductance": 0.17894736842105263,
+            "cut_size": 17
+        },
+        "362": {
+            "size": 336,
+            "internal_density": 0.005952380952380952,
+            "conductance": 0.3469785575048733,
+            "cut_size": 356
+        },
+        "363": {
+            "size": 279,
+            "internal_density": 0.007168458781362007,
+            "conductance": 0.35573580533024335,
+            "cut_size": 307
+        },
+        "364": {
+            "size": 24,
+            "internal_density": 0.08333333333333333,
+            "conductance": 0.23333333333333334,
+            "cut_size": 14
+        },
+        "365": {
+            "size": 77,
+            "internal_density": 0.025974025974025976,
+            "conductance": 0.03184713375796178,
+            "cut_size": 5
+        },
+        "370": {
+            "size": 51,
+            "internal_density": 0.0392156862745098,
+            "conductance": 0.1935483870967742,
+            "cut_size": 24
+        },
+        "372": {
+            "size": 40,
+            "internal_density": 0.05,
+            "conductance": 0.3157894736842105,
+            "cut_size": 36
+        },
+        "375": {
+            "size": 14,
+            "internal_density": 0.14285714285714285,
+            "conductance": 0.1875,
+            "cut_size": 6
+        },
+        "380": {
+            "size": 149,
+            "internal_density": 0.013422818791946308,
+            "conductance": 0.4044265593561368,
+            "cut_size": 201
+        },
+        "381": {
+            "size": 62,
+            "internal_density": 0.03225806451612903,
+            "conductance": 0.024,
+            "cut_size": 3
+        },
+        "383": {
+            "size": 116,
+            "internal_density": 0.017391304347826087,
+            "conductance": 0.38786279683377306,
+            "cut_size": 147
+        },
+        "388": {
+            "size": 12,
+            "internal_density": 0.18181818181818182,
+            "conductance": 0.07692307692307693,
+            "cut_size": 2
+        },
+        "393": {
+            "size": 758,
+            "internal_density": 0.002638522427440633,
+            "conductance": 0.310250569476082,
+            "cut_size": 681
+        },
+        "396": {
+            "size": 670,
+            "internal_density": 0.0029850746268656717,
+            "conductance": 0.07276507276507277,
+            "cut_size": 105
+        },
+        "398": {
+            "size": 11,
+            "internal_density": 0.14545454545454545,
+            "conductance": 0.4482758620689655,
+            "cut_size": 13
+        },
+        "399": {
+            "size": 16,
+            "internal_density": 0.125,
+            "conductance": 0.3181818181818182,
+            "cut_size": 14
+        },
+        "401": {
+            "size": 55,
+            "internal_density": 0.03636363636363636,
+            "conductance": 0.41621621621621624,
+            "cut_size": 77
+        },
+        "406": {
+            "size": 334,
+            "internal_density": 0.005988023952095809,
+            "conductance": 0.32454361054766734,
+            "cut_size": 320
+        },
+        "408": {
+            "size": 145,
+            "internal_density": 0.013793103448275862,
+            "conductance": 0.3348729792147806,
+            "cut_size": 145
+        },
+        "410": {
+            "size": 56,
+            "internal_density": 0.03571428571428571,
+            "conductance": 0.11290322580645161,
+            "cut_size": 14
+        },
+        "417": {
+            "size": 14,
+            "internal_density": 0.15384615384615385,
+            "conductance": 0.46153846153846156,
+            "cut_size": 24
+        },
+        "420": {
+            "size": 35,
+            "internal_density": 0.05714285714285714,
+            "conductance": 0.41379310344827586,
+            "cut_size": 48
+        },
+        "423": {
+            "size": 199,
+            "internal_density": 0.010050251256281407,
+            "conductance": 0.28390596745027125,
+            "cut_size": 157
+        },
+        "426": {
+            "size": 17,
+            "internal_density": 0.11764705882352941,
+            "conductance": 0.43859649122807015,
+            "cut_size": 25
+        },
+        "427": {
+            "size": 485,
+            "internal_density": 0.004123711340206186,
+            "conductance": 0.27163280662151995,
+            "cut_size": 361
+        },
+        "428": {
+            "size": 56,
+            "internal_density": 0.03571428571428571,
+            "conductance": 0.3989071038251366,
+            "cut_size": 73
+        },
+        "429": {
+            "size": 17,
+            "internal_density": 0.11764705882352941,
+            "conductance": 0.41818181818181815,
+            "cut_size": 23
+        },
+        "431": {
+            "size": 11,
+            "internal_density": 0.18181818181818182,
+            "conductance": 0.48717948717948717,
+            "cut_size": 19
+        },
+        "441": {
+            "size": 14,
+            "internal_density": 0.14285714285714285,
+            "conductance": 0.2777777777777778,
+            "cut_size": 10
+        },
+        "443": {
+            "size": 564,
+            "internal_density": 0.0035460992907801418,
+            "conductance": 0.4219712525667351,
+            "cut_size": 822
+        },
+        "447": {
+            "size": 18,
+            "internal_density": 0.1111111111111111,
+            "conductance": 0.40350877192982454,
+            "cut_size": 23
+        },
+        "449": {
+            "size": 69,
+            "internal_density": 0.028985507246376812,
+            "conductance": 0.4188034188034188,
+            "cut_size": 98
+        },
+        "455": {
+            "size": 43,
+            "internal_density": 0.046511627906976744,
+            "conductance": 0.18446601941747573,
+            "cut_size": 19
+        },
+        "459": {
+            "size": 13,
+            "internal_density": 0.15384615384615385,
+            "conductance": 0.29411764705882354,
+            "cut_size": 10
+        },
+        "462": {
+            "size": 22,
+            "internal_density": 0.09090909090909091,
+            "conductance": 0.27586206896551724,
+            "cut_size": 16
+        },
+        "465": {
+            "size": 10,
+            "internal_density": 0.2,
+            "conductance": 0.14285714285714285,
+            "cut_size": 3
+        },
+        "470": {
+            "size": 78,
+            "internal_density": 0.02564102564102564,
+            "conductance": 0.43795620437956206,
+            "cut_size": 120
+        },
+        "475": {
+            "size": 78,
+            "internal_density": 0.02564102564102564,
+            "conductance": 0.3063063063063063,
+            "cut_size": 68
+        },
+        "476": {
+            "size": 635,
+            "internal_density": 0.0031496062992125984,
+            "conductance": 0.22256284488044145,
+            "cut_size": 363
+        },
+        "477": {
+            "size": 61,
+            "internal_density": 0.03278688524590164,
+            "conductance": 0.34065934065934067,
+            "cut_size": 62
+        },
+        "484": {
+            "size": 37,
+            "internal_density": 0.05405405405405406,
+            "conductance": 0.45038167938931295,
+            "cut_size": 59
+        },
+        "487": {
+            "size": 30,
+            "internal_density": 0.06666666666666667,
+            "conductance": 0.26582278481012656,
+            "cut_size": 21
+        },
+        "488": {
+            "size": 12,
+            "internal_density": 0.18181818181818182,
+            "conductance": 0.4,
+            "cut_size": 16
+        },
+        "489": {
+            "size": 34,
+            "internal_density": 0.058823529411764705,
+            "conductance": 0.4,
+            "cut_size": 44
+        },
+        "491": {
+            "size": 17,
+            "internal_density": 0.11764705882352941,
+            "conductance": 0.42857142857142855,
+            "cut_size": 24
+        },
+        "492": {
+            "size": 14,
+            "internal_density": 0.15384615384615385,
+            "conductance": 0.28205128205128205,
+            "cut_size": 11
+        },
+        "493": {
+            "size": 279,
+            "internal_density": 0.007168458781362007,
+            "conductance": 0.432073544433095,
+            "cut_size": 423
+        },
+        "494": {
+            "size": 590,
+            "internal_density": 0.0034243618888665076,
+            "conductance": 0.41292550567340897,
+            "cut_size": 837
+        },
+        "497": {
+            "size": 681,
+            "internal_density": 0.0029411764705882353,
+            "conductance": 0.21271676300578035,
+            "cut_size": 368
+        },
+        "503": {
+            "size": 111,
+            "internal_density": 0.018018018018018018,
+            "conductance": 0.3785310734463277,
+            "cut_size": 134
+        },
+        "506": {
+            "size": 59,
+            "internal_density": 0.03389830508474576,
+            "conductance": 0.06451612903225806,
+            "cut_size": 8
+        },
+        "508": {
+            "size": 12,
+            "internal_density": 0.10606060606060606,
+            "conductance": 0.5172413793103449,
+            "cut_size": 15
+        },
+        "513": {
+            "size": 197,
+            "internal_density": 0.01015228426395939,
+            "conductance": 0.11910112359550562,
+            "cut_size": 53
+        },
+        "516": {
+            "size": 238,
+            "internal_density": 0.008403361344537815,
+            "conductance": 0.46621621621621623,
+            "cut_size": 414
+        },
+        "524": {
+            "size": 48,
+            "internal_density": 0.041666666666666664,
+            "conductance": 0.45977011494252873,
+            "cut_size": 80
+        },
+        "525": {
+            "size": 269,
+            "internal_density": 0.007434944237918215,
+            "conductance": 0.3701527614571093,
+            "cut_size": 315
+        },
+        "534": {
+            "size": 133,
+            "internal_density": 0.015037593984962405,
+            "conductance": 0.49714285714285716,
+            "cut_size": 261
+        },
+        "535": {
+            "size": 11,
+            "internal_density": 0.18181818181818182,
+            "conductance": 0.16666666666666666,
+            "cut_size": 4
+        },
+        "537": {
+            "size": 11,
+            "internal_density": 0.18181818181818182,
+            "conductance": 0.25925925925925924,
+            "cut_size": 7
+        },
+        "538": {
+            "size": 181,
+            "internal_density": 0.011049723756906077,
+            "conductance": 0.2356687898089172,
+            "cut_size": 111
+        },
+        "539": {
+            "size": 328,
+            "internal_density": 0.006097560975609756,
+            "conductance": 0.26763717805151177,
+            "cut_size": 239
+        },
+        "544": {
+            "size": 351,
+            "internal_density": 0.005698005698005698,
+            "conductance": 0.22135706340378197,
+            "cut_size": 199
+        },
+        "545": {
+            "size": 50,
+            "internal_density": 0.04,
+            "conductance": 0.26865671641791045,
+            "cut_size": 36
+        },
+        "554": {
+            "size": 18,
+            "internal_density": 0.1111111111111111,
+            "conductance": 0.24444444444444444,
+            "cut_size": 11
+        },
+        "562": {
+            "size": 75,
+            "internal_density": 0.02666666666666667,
+            "conductance": 0.08641975308641975,
+            "cut_size": 14
+        },
+        "563": {
+            "size": 49,
+            "internal_density": 0.04081632653061224,
+            "conductance": 0.33793103448275863,
+            "cut_size": 49
+        },
+        "567": {
+            "size": 12,
+            "internal_density": 0.16666666666666666,
+            "conductance": 0.40540540540540543,
+            "cut_size": 15
+        },
+        "570": {
+            "size": 218,
+            "internal_density": 0.009174311926605505,
+            "conductance": 0.2656514382402707,
+            "cut_size": 157
+        },
+        "578": {
+            "size": 14,
+            "internal_density": 0.0989010989010989,
+            "conductance": 0.3793103448275862,
+            "cut_size": 11
+        },
+        "579": {
+            "size": 39,
+            "internal_density": 0.05128205128205128,
+            "conductance": 0.3274336283185841,
+            "cut_size": 37
+        },
+        "580": {
+            "size": 30,
+            "internal_density": 0.06666666666666667,
+            "conductance": 0.07936507936507936,
+            "cut_size": 5
+        },
+        "585": {
+            "size": 344,
+            "internal_density": 0.005813953488372093,
+            "conductance": 0.34541984732824427,
+            "cut_size": 362
+        },
+        "586": {
+            "size": 119,
+            "internal_density": 0.015097564449508617,
+            "conductance": 0.4659949622166247,
+            "cut_size": 185
+        },
+        "591": {
+            "size": 14,
+            "internal_density": 0.14285714285714285,
+            "conductance": 0.2777777777777778,
+            "cut_size": 10
+        },
+        "594": {
+            "size": 10,
+            "internal_density": 0.2,
+            "conductance": 0.3076923076923077,
+            "cut_size": 8
+        },
+        "596": {
+            "size": 17,
+            "internal_density": 0.11764705882352941,
+            "conductance": 0.2727272727272727,
+            "cut_size": 12
+        },
+        "600": {
+            "size": 37,
+            "internal_density": 0.05405405405405406,
+            "conductance": 0.28,
+            "cut_size": 28
+        },
+        "601": {
+            "size": 23,
+            "internal_density": 0.08695652173913043,
+            "conductance": 0.08333333333333333,
+            "cut_size": 4
+        },
+        "603": {
+            "size": 21,
+            "internal_density": 0.09523809523809523,
+            "conductance": 0.38461538461538464,
+            "cut_size": 25
+        },
+        "606": {
+            "size": 648,
+            "internal_density": 0.0030864197530864196,
+            "conductance": 0.3421453990849009,
+            "cut_size": 673
+        },
+        "610": {
+            "size": 15,
+            "internal_density": 0.13333333333333333,
+            "conductance": 0.28205128205128205,
+            "cut_size": 11
+        },
+        "619": {
+            "size": 27,
+            "internal_density": 0.07407407407407407,
+            "conductance": 0.34177215189873417,
+            "cut_size": 27
+        },
+        "621": {
+            "size": 21,
+            "internal_density": 0.09523809523809523,
+            "conductance": 0.25925925925925924,
+            "cut_size": 14
+        },
+        "625": {
+            "size": 10,
+            "internal_density": 0.2,
+            "conductance": 0.1,
+            "cut_size": 2
+        },
+        "627": {
+            "size": 31,
+            "internal_density": 0.07096774193548387,
+            "conductance": 0.3888888888888889,
+            "cut_size": 42
+        },
+        "633": {
+            "size": 10,
+            "internal_density": 0.1111111111111111,
+            "conductance": 0.3333333333333333,
+            "cut_size": 5
+        },
+        "636": {
+            "size": 19,
+            "internal_density": 0.1111111111111111,
+            "conductance": 0.3968253968253968,
+            "cut_size": 25
+        },
+        "643": {
+            "size": 12,
+            "internal_density": 0.16666666666666666,
+            "conductance": 0.2413793103448276,
+            "cut_size": 7
+        },
+        "651": {
+            "size": 34,
+            "internal_density": 0.06417112299465241,
+            "conductance": 0.12195121951219512,
+            "cut_size": 10
+        },
+        "659": {
+            "size": 16,
+            "internal_density": 0.125,
+            "conductance": 0.4339622641509434,
+            "cut_size": 23
+        },
+        "660": {
+            "size": 21,
+            "internal_density": 0.05714285714285714,
+            "conductance": 0.5294117647058824,
+            "cut_size": 27
+        },
+        "667": {
+            "size": 30,
+            "internal_density": 0.06666666666666667,
+            "conductance": 0.30120481927710846,
+            "cut_size": 25
+        },
+        "670": {
+            "size": 112,
+            "internal_density": 0.017857142857142856,
+            "conductance": 0.2996845425867508,
+            "cut_size": 95
+        },
+        "671": {
+            "size": 10,
+            "internal_density": 0.2,
+            "conductance": 0.3793103448275862,
+            "cut_size": 11
+        },
+        "672": {
+            "size": 11,
+            "internal_density": 0.18181818181818182,
+            "conductance": 0.375,
+            "cut_size": 12
+        },
+        "676": {
+            "size": 14,
+            "internal_density": 0.14285714285714285,
+            "conductance": 0.4222222222222222,
+            "cut_size": 19
+        },
+        "677": {
+            "size": 121,
+            "internal_density": 0.01652892561983471,
+            "conductance": 0.2356687898089172,
+            "cut_size": 74
+        },
+        "679": {
+            "size": 21,
+            "internal_density": 0.09523809523809523,
+            "conductance": 0.40298507462686567,
+            "cut_size": 27
+        },
+        "685": {
+            "size": 11,
+            "internal_density": 0.18181818181818182,
+            "conductance": 0.13043478260869565,
+            "cut_size": 3
+        },
+        "691": {
+            "size": 33,
+            "internal_density": 0.06060606060606061,
+            "conductance": 0.4074074074074074,
+            "cut_size": 44
+        },
+        "692": {
+            "size": 39,
+            "internal_density": 0.05128205128205128,
+            "conductance": 0.16483516483516483,
+            "cut_size": 15
+        },
+        "698": {
+            "size": 39,
+            "internal_density": 0.05128205128205128,
+            "conductance": 0.36134453781512604,
+            "cut_size": 43
+        },
+        "701": {
+            "size": 19,
+            "internal_density": 0.05847953216374269,
+            "conductance": 0.5121951219512195,
+            "cut_size": 21
+        },
+        "708": {
+            "size": 26,
+            "internal_density": 0.046153846153846156,
+            "conductance": 0.4,
+            "cut_size": 20
+        },
+        "723": {
+            "size": 717,
+            "internal_density": 0.002793296089385475,
+            "conductance": 0.21553610503282275,
+            "cut_size": 394
+        },
+        "727": {
+            "size": 14,
+            "internal_density": 0.14285714285714285,
+            "conductance": 0.43478260869565216,
+            "cut_size": 20
+        },
+        "734": {
+            "size": 13,
+            "internal_density": 0.19230769230769232,
+            "conductance": 0.3181818181818182,
+            "cut_size": 14
+        },
+        "741": {
+            "size": 209,
+            "internal_density": 0.009615384615384616,
+            "conductance": 0.4708860759493671,
+            "cut_size": 372
+        },
+        "743": {
+            "size": 19,
+            "internal_density": 0.10526315789473684,
+            "conductance": 0.28,
+            "cut_size": 14
+        },
+        "745": {
+            "size": 22,
+            "internal_density": 0.09090909090909091,
+            "conductance": 0.36363636363636365,
+            "cut_size": 24
+        },
+        "757": {
+            "size": 11,
+            "internal_density": 0.18181818181818182,
+            "conductance": 0.42857142857142855,
+            "cut_size": 15
+        },
+        "759": {
+            "size": 35,
+            "internal_density": 0.05714285714285714,
+            "conductance": 0.5177304964539007,
+            "cut_size": 73
+        },
+        "763": {
+            "size": 24,
+            "internal_density": 0.08333333333333333,
+            "conductance": 0.28125,
+            "cut_size": 18
+        },
+        "773": {
+            "size": 64,
+            "internal_density": 0.03125,
+            "conductance": 0.35714285714285715,
+            "cut_size": 70
+        },
+        "774": {
+            "size": 71,
+            "internal_density": 0.01609657947686117,
+            "conductance": 0.3103448275862069,
+            "cut_size": 36
+        },
+        "775": {
+            "size": 30,
+            "internal_density": 0.06896551724137931,
+            "conductance": 0.3617021276595745,
+            "cut_size": 34
+        },
+        "783": {
+            "size": 22,
+            "internal_density": 0.09090909090909091,
+            "conductance": 0.3333333333333333,
+            "cut_size": 21
+        },
+        "790": {
+            "size": 24,
+            "internal_density": 0.09420289855072464,
+            "conductance": 0.2972972972972973,
+            "cut_size": 22
+        },
+        "800": {
+            "size": 17,
+            "internal_density": 0.11764705882352941,
+            "conductance": 0.23809523809523808,
+            "cut_size": 10
+        },
+        "801": {
+            "size": 28,
+            "internal_density": 0.07142857142857142,
+            "conductance": 0.509090909090909,
+            "cut_size": 56
+        },
+        "803": {
+            "size": 97,
+            "internal_density": 0.020618556701030927,
+            "conductance": 0.26996197718631176,
+            "cut_size": 71
+        },
+        "807": {
+            "size": 10,
+            "internal_density": 0.2,
+            "conductance": 0.25,
+            "cut_size": 6
+        },
+        "812": {
+            "size": 138,
+            "internal_density": 0.014492753623188406,
+            "conductance": 0.47104247104247104,
+            "cut_size": 244
+        },
+        "817": {
+            "size": 33,
+            "internal_density": 0.06628787878787878,
+            "conductance": 0.27835051546391754,
+            "cut_size": 27
+        },
+        "821": {
+            "size": 23,
+            "internal_density": 0.08695652173913043,
+            "conductance": 0.18518518518518517,
+            "cut_size": 10
+        },
+        "829": {
+            "size": 299,
+            "internal_density": 0.006688963210702341,
+            "conductance": 0.11044776119402985,
+            "cut_size": 74
+        },
+        "834": {
+            "size": 34,
+            "internal_density": 0.058823529411764705,
+            "conductance": 0.2413793103448276,
+            "cut_size": 21
+        },
+        "844": {
+            "size": 133,
+            "internal_density": 0.015037593984962405,
+            "conductance": 0.2845528455284553,
+            "cut_size": 105
+        },
+        "849": {
+            "size": 12,
+            "internal_density": 0.16666666666666666,
+            "conductance": 0.42105263157894735,
+            "cut_size": 16
+        },
+        "850": {
+            "size": 11,
+            "internal_density": 0.18181818181818182,
+            "conductance": 0.16666666666666666,
+            "cut_size": 4
+        },
+        "852": {
+            "size": 21,
+            "internal_density": 0.1,
+            "conductance": 0.17647058823529413,
+            "cut_size": 9
+        },
+        "853": {
+            "size": 13,
+            "internal_density": 0.15384615384615385,
+            "conductance": 0.3684210526315789,
+            "cut_size": 14
+        },
+        "861": {
+            "size": 11,
+            "internal_density": 0.2,
+            "conductance": 0.40540540540540543,
+            "cut_size": 15
+        },
+        "886": {
+            "size": 104,
+            "internal_density": 0.019417475728155338,
+            "conductance": 0.07555555555555556,
+            "cut_size": 17
+        },
+        "892": {
+            "size": 48,
+            "internal_density": 0.041666666666666664,
+            "conductance": 0.09615384615384616,
+            "cut_size": 10
+        },
+        "899": {
+            "size": 52,
+            "internal_density": 0.038461538461538464,
+            "conductance": 0.23880597014925373,
+            "cut_size": 32
+        },
+        "908": {
+            "size": 16,
+            "internal_density": 0.125,
+            "conductance": 0.375,
+            "cut_size": 18
+        },
+        "914": {
+            "size": 68,
+            "internal_density": 0.029411764705882353,
+            "conductance": 0.36792452830188677,
+            "cut_size": 78
+        },
+        "919": {
+            "size": 16,
+            "internal_density": 0.125,
+            "conductance": 0.03225806451612903,
+            "cut_size": 1
+        },
+        "923": {
+            "size": 101,
+            "internal_density": 0.019801980198019802,
+            "conductance": 0.41002949852507375,
+            "cut_size": 139
+        },
+        "925": {
+            "size": 35,
+            "internal_density": 0.05714285714285714,
+            "conductance": 0.3761467889908257,
+            "cut_size": 41
+        },
+        "932": {
+            "size": 21,
+            "internal_density": 0.1,
+            "conductance": 0.34375,
+            "cut_size": 22
+        },
+        "937": {
+            "size": 20,
+            "internal_density": 0.10526315789473684,
+            "conductance": 0.4666666666666667,
+            "cut_size": 35
+        },
+        "938": {
+            "size": 195,
+            "internal_density": 0.010256410256410256,
+            "conductance": 0.3984496124031008,
+            "cut_size": 257
+        },
+        "945": {
+            "size": 138,
+            "internal_density": 0.014492753623188406,
+            "conductance": 0.33007334963325186,
+            "cut_size": 135
+        },
+        "957": {
+            "size": 114,
+            "internal_density": 0.017543859649122806,
+            "conductance": 0.28253968253968254,
+            "cut_size": 89
+        },
+        "959": {
+            "size": 247,
+            "internal_density": 0.008097165991902834,
+            "conductance": 0.18136439267886856,
+            "cut_size": 109
+        },
+        "973": {
+            "size": 13,
+            "internal_density": 0.15384615384615385,
+            "conductance": 0.1111111111111111,
+            "cut_size": 3
+        },
+        "975": {
+            "size": 13,
+            "internal_density": 0.2948717948717949,
+            "conductance": 0.2698412698412698,
+            "cut_size": 17
+        },
+        "976": {
+            "size": 11,
+            "internal_density": 0.18181818181818182,
+            "conductance": 0.16666666666666666,
+            "cut_size": 4
+        },
+        "978": {
+            "size": 34,
+            "internal_density": 0.058823529411764705,
+            "conductance": 0.35294117647058826,
+            "cut_size": 36
+        },
+        "982": {
+            "size": 2018,
+            "internal_density": 0.0009925543681482425,
+            "conductance": 0.33596318211702825,
+            "cut_size": 2044
+        },
+        "983": {
+            "size": 43,
+            "internal_density": 0.046511627906976744,
+            "conductance": 0.4166666666666667,
+            "cut_size": 60
+        },
+        "985": {
+            "size": 86,
+            "internal_density": 0.023255813953488372,
+            "conductance": 0.4426229508196721,
+            "cut_size": 135
+        },
+        "990": {
+            "size": 32,
+            "internal_density": 0.0625,
+            "conductance": 0.06060606060606061,
+            "cut_size": 4
+        },
+        "995": {
+            "size": 732,
+            "internal_density": 0.00273224043715847,
+            "conductance": 0.3004784688995215,
+            "cut_size": 628
+        },
+        "996": {
+            "size": 163,
+            "internal_density": 0.012269938650306749,
+            "conductance": 0.31210191082802546,
+            "cut_size": 147
+        },
+        "997": {
+            "size": 79,
+            "internal_density": 0.02531645569620253,
+            "conductance": 0.2,
+            "cut_size": 39
+        },
+        "998": {
+            "size": 12,
+            "internal_density": 0.16666666666666666,
+            "conductance": 0.18518518518518517,
+            "cut_size": 5
+        },
+        "1000": {
+            "size": 18,
+            "internal_density": 0.1111111111111111,
+            "conductance": 0.38181818181818183,
+            "cut_size": 21
+        },
+        "1001": {
+            "size": 80,
+            "internal_density": 0.025,
+            "conductance": 0.427536231884058,
+            "cut_size": 118
+        },
+        "1003": {
+            "size": 66,
+            "internal_density": 0.030303030303030304,
+            "conductance": 0.2737430167597765,
+            "cut_size": 49
+        },
+        "1006": {
+            "size": 90,
+            "internal_density": 0.022222222222222223,
+            "conductance": 0.34317343173431736,
+            "cut_size": 93
+        },
+        "1011": {
+            "size": 10,
+            "internal_density": 0.2,
+            "conductance": 0.28,
+            "cut_size": 7
+        },
+        "1017": {
+            "size": 235,
+            "internal_density": 0.00851063829787234,
+            "conductance": 0.2962406015037594,
+            "cut_size": 197
+        },
+        "1019": {
+            "size": 113,
+            "internal_density": 0.017699115044247787,
+            "conductance": 0.4074074074074074,
+            "cut_size": 154
+        },
+        "1020": {
+            "size": 286,
+            "internal_density": 0.007017543859649123,
+            "conductance": 0.23014804845222073,
+            "cut_size": 171
+        },
+        "1025": {
+            "size": 17,
+            "internal_density": 0.11764705882352941,
+            "conductance": 0.2727272727272727,
+            "cut_size": 12
+        },
+        "1027": {
+            "size": 131,
+            "internal_density": 0.015384615384615385,
+            "conductance": 0.22255192878338279,
+            "cut_size": 75
+        },
+        "1038": {
+            "size": 380,
+            "internal_density": 0.005263157894736842,
+            "conductance": 0.39553429027113235,
+            "cut_size": 496
+        },
+        "1039": {
+            "size": 35,
+            "internal_density": 0.05714285714285714,
+            "conductance": 0.38738738738738737,
+            "cut_size": 43
+        },
+        "1040": {
+            "size": 252,
+            "internal_density": 0.007936507936507936,
+            "conductance": 0.24624624624624625,
+            "cut_size": 164
+        },
+        "1042": {
+            "size": 71,
+            "internal_density": 0.028169014084507043,
+            "conductance": 0.2,
+            "cut_size": 35
+        },
+        "1048": {
+            "size": 161,
+            "internal_density": 0.0125,
+            "conductance": 0.20689655172413793,
+            "cut_size": 84
+        },
+        "1050": {
+            "size": 667,
+            "internal_density": 0.0029985007496251873,
+            "conductance": 0.2665198237885463,
+            "cut_size": 484
+        },
+        "1052": {
+            "size": 78,
+            "internal_density": 0.02564102564102564,
+            "conductance": 0.3984375,
+            "cut_size": 102
+        },
+        "1055": {
+            "size": 68,
+            "internal_density": 0.029411764705882353,
+            "conductance": 0.3936651583710407,
+            "cut_size": 87
+        },
+        "1056": {
+            "size": 14,
+            "internal_density": 0.14285714285714285,
+            "conductance": 0.35,
+            "cut_size": 14
+        },
+        "1057": {
+            "size": 46,
+            "internal_density": 0.043478260869565216,
+            "conductance": 0.34782608695652173,
+            "cut_size": 48
+        },
+        "1059": {
+            "size": 150,
+            "internal_density": 0.013333333333333334,
+            "conductance": 0.2921615201900237,
+            "cut_size": 123
+        },
+        "1063": {
+            "size": 260,
+            "internal_density": 0.007722007722007722,
+            "conductance": 0.270687237026648,
+            "cut_size": 193
+        },
+        "1064": {
+            "size": 11,
+            "internal_density": 0.18181818181818182,
+            "conductance": 0.3103448275862069,
+            "cut_size": 9
+        },
+        "1065": {
+            "size": 181,
+            "internal_density": 0.011049723756906077,
+            "conductance": 0.3023255813953488,
+            "cut_size": 156
+        },
+        "1066": {
+            "size": 334,
+            "internal_density": 0.005988023952095809,
+            "conductance": 0.16226415094339622,
+            "cut_size": 129
+        },
+        "1068": {
+            "size": 44,
+            "internal_density": 0.045454545454545456,
+            "conductance": 0.39436619718309857,
+            "cut_size": 56
+        },
+        "1073": {
+            "size": 27,
+            "internal_density": 0.07407407407407407,
+            "conductance": 0.2676056338028169,
+            "cut_size": 19
+        },
+        "1074": {
+            "size": 70,
+            "internal_density": 0.02857142857142857,
+            "conductance": 0.3669724770642202,
+            "cut_size": 80
+        },
+        "1078": {
+            "size": 10,
+            "internal_density": 0.2,
+            "conductance": 0.14285714285714285,
+            "cut_size": 3
+        },
+        "1079": {
+            "size": 10,
+            "internal_density": 0.2,
+            "conductance": 0.05263157894736842,
+            "cut_size": 1
+        },
+        "1081": {
+            "size": 20,
+            "internal_density": 0.1,
+            "conductance": 0.525,
+            "cut_size": 42
+        },
+        "1084": {
+            "size": 14,
+            "internal_density": 0.14285714285714285,
+            "conductance": 0.38095238095238093,
+            "cut_size": 16
+        },
+        "1085": {
+            "size": 274,
+            "internal_density": 0.0072992700729927005,
+            "conductance": 0.25205479452054796,
+            "cut_size": 184
+        },
+        "1087": {
+            "size": 27,
+            "internal_density": 0.07407407407407407,
+            "conductance": 0.49019607843137253,
+            "cut_size": 50
+        },
+        "1088": {
+            "size": 19,
+            "internal_density": 0.10526315789473684,
+            "conductance": 0.2653061224489796,
+            "cut_size": 13
+        },
+        "1091": {
+            "size": 15,
+            "internal_density": 0.13333333333333333,
+            "conductance": 0.15151515151515152,
+            "cut_size": 5
+        },
+        "1093": {
+            "size": 50,
+            "internal_density": 0.04081632653061224,
+            "conductance": 0.2125984251968504,
+            "cut_size": 27
+        },
+        "1096": {
+            "size": 26,
+            "internal_density": 0.07692307692307693,
+            "conductance": 0.3150684931506849,
+            "cut_size": 23
+        },
+        "1097": {
+            "size": 103,
+            "internal_density": 0.019417475728155338,
+            "conductance": 0.3761467889908257,
+            "cut_size": 123
+        },
+        "1098": {
+            "size": 199,
+            "internal_density": 0.010050251256281407,
+            "conductance": 0.26119402985074625,
+            "cut_size": 140
+        },
+        "1100": {
+            "size": 73,
+            "internal_density": 0.0273972602739726,
+            "conductance": 0.26903553299492383,
+            "cut_size": 53
+        },
+        "1101": {
+            "size": 24,
+            "internal_density": 0.08333333333333333,
+            "conductance": 0.4025974025974026,
+            "cut_size": 31
+        },
+        "1103": {
+            "size": 13,
+            "internal_density": 0.15384615384615385,
+            "conductance": 0.3684210526315789,
+            "cut_size": 14
+        },
+        "1107": {
+            "size": 19,
+            "internal_density": 0.10526315789473684,
+            "conductance": 0.23404255319148937,
+            "cut_size": 11
+        },
+        "1109": {
+            "size": 41,
+            "internal_density": 0.04878048780487805,
+            "conductance": 0.3442622950819672,
+            "cut_size": 42
+        },
+        "1113": {
+            "size": 22,
+            "internal_density": 0.09090909090909091,
+            "conductance": 0.43243243243243246,
+            "cut_size": 32
+        },
+        "1114": {
+            "size": 12,
+            "internal_density": 0.16666666666666666,
+            "conductance": 0.08333333333333333,
+            "cut_size": 2
+        },
+        "1116": {
+            "size": 44,
+            "internal_density": 0.046511627906976744,
+            "conductance": 0.42857142857142855,
+            "cut_size": 66
+        },
+        "1123": {
+            "size": 32,
+            "internal_density": 0.0625,
+            "conductance": 0.24390243902439024,
+            "cut_size": 20
+        },
+        "1124": {
+            "size": 72,
+            "internal_density": 0.027777777777777776,
+            "conductance": 0.3879310344827586,
+            "cut_size": 90
+        },
+        "1125": {
+            "size": 12,
+            "internal_density": 0.16666666666666666,
+            "conductance": 0.18518518518518517,
+            "cut_size": 5
+        },
+        "1126": {
+            "size": 12,
+            "internal_density": 0.16666666666666666,
+            "conductance": 0.45,
+            "cut_size": 18
+        },
+        "1131": {
+            "size": 14,
+            "internal_density": 0.14285714285714285,
+            "conductance": 0.1875,
+            "cut_size": 6
+        },
+        "1136": {
+            "size": 158,
+            "internal_density": 0.007175683302426832,
+            "conductance": 0.49859154929577465,
+            "cut_size": 177
+        },
+        "1138": {
+            "size": 48,
+            "internal_density": 0.041666666666666664,
+            "conductance": 0.08737864077669903,
+            "cut_size": 9
+        },
+        "1139": {
+            "size": 63,
+            "internal_density": 0.031746031746031744,
+            "conductance": 0.2392638036809816,
+            "cut_size": 39
+        },
+        "1144": {
+            "size": 58,
+            "internal_density": 0.034482758620689655,
+            "conductance": 0.36666666666666664,
+            "cut_size": 66
+        },
+        "1150": {
+            "size": 28,
+            "internal_density": 0.07142857142857142,
+            "conductance": 0.2894736842105263,
+            "cut_size": 22
+        },
+        "1153": {
+            "size": 14,
+            "internal_density": 0.15384615384615385,
+            "conductance": 0.0967741935483871,
+            "cut_size": 3
+        },
+        "1155": {
+            "size": 14,
+            "internal_density": 0.07692307692307693,
+            "conductance": 0.3333333333333333,
+            "cut_size": 7
+        },
+        "1157": {
+            "size": 11,
+            "internal_density": 0.18181818181818182,
+            "conductance": 0.2,
+            "cut_size": 5
+        },
+        "1159": {
+            "size": 14,
+            "internal_density": 0.14285714285714285,
+            "conductance": 0.21212121212121213,
+            "cut_size": 7
+        },
+        "1161": {
+            "size": 11,
+            "internal_density": 0.18181818181818182,
+            "conductance": 0.2,
+            "cut_size": 5
+        },
+        "1165": {
+            "size": 37,
+            "internal_density": 0.05405405405405406,
+            "conductance": 0.25,
+            "cut_size": 24
+        },
+        "1166": {
+            "size": 44,
+            "internal_density": 0.045454545454545456,
+            "conductance": 0.3533834586466165,
+            "cut_size": 47
+        },
+        "1171": {
+            "size": 11,
+            "internal_density": 0.18181818181818182,
+            "conductance": 0.047619047619047616,
+            "cut_size": 1
+        },
+        "1173": {
+            "size": 24,
+            "internal_density": 0.08695652173913043,
+            "conductance": 0.4074074074074074,
+            "cut_size": 33
+        },
+        "1175": {
+            "size": 41,
+            "internal_density": 0.04878048780487805,
+            "conductance": 0.38461538461538464,
+            "cut_size": 50
+        },
+        "1176": {
+            "size": 35,
+            "internal_density": 0.05714285714285714,
+            "conductance": 0.3644859813084112,
+            "cut_size": 39
+        },
+        "1180": {
+            "size": 81,
+            "internal_density": 0.024691358024691357,
+            "conductance": 0.3277310924369748,
+            "cut_size": 78
+        },
+        "1181": {
+            "size": 57,
+            "internal_density": 0.03508771929824561,
+            "conductance": 0.43434343434343436,
+            "cut_size": 86
+        },
+        "1183": {
+            "size": 36,
+            "internal_density": 0.05555555555555555,
+            "conductance": 0.3,
+            "cut_size": 30
+        },
+        "1192": {
+            "size": 25,
+            "internal_density": 0.08,
+            "conductance": 0.21311475409836064,
+            "cut_size": 13
+        },
+        "1196": {
+            "size": 255,
+            "internal_density": 0.00784313725490196,
+            "conductance": 0.03969754253308128,
+            "cut_size": 21
+        },
+        "1199": {
+            "size": 210,
+            "internal_density": 0.009523809523809525,
+            "conductance": 0.3113673805601318,
+            "cut_size": 189
+        },
+        "1211": {
+            "size": 15,
+            "internal_density": 0.13333333333333333,
+            "conductance": 0.391304347826087,
+            "cut_size": 18
+        },
+        "1213": {
+            "size": 45,
+            "internal_density": 0.044444444444444446,
+            "conductance": 0.44654088050314467,
+            "cut_size": 71
+        },
+        "1215": {
+            "size": 16,
+            "internal_density": 0.125,
+            "conductance": 0.4339622641509434,
+            "cut_size": 23
+        },
+        "1218": {
+            "size": 78,
+            "internal_density": 0.02564102564102564,
+            "conductance": 0.4797297297297297,
+            "cut_size": 142
+        },
+        "1220": {
+            "size": 190,
+            "internal_density": 0.011194653299916459,
+            "conductance": 0.139186295503212,
+            "cut_size": 65
+        },
+        "1221": {
+            "size": 15,
+            "internal_density": 0.13333333333333333,
+            "conductance": 0.28205128205128205,
+            "cut_size": 11
+        },
+        "1222": {
+            "size": 161,
+            "internal_density": 0.012422360248447204,
+            "conductance": 0.43161634103019536,
+            "cut_size": 243
+        },
+        "1223": {
+            "size": 21,
+            "internal_density": 0.1,
+            "conductance": 0.3333333333333333,
+            "cut_size": 21
+        },
+        "1225": {
+            "size": 103,
+            "internal_density": 0.019417475728155338,
+            "conductance": 0.39104477611940297,
+            "cut_size": 131
+        },
+        "1235": {
+            "size": 237,
+            "internal_density": 0.008438818565400843,
+            "conductance": 0.2891566265060241,
+            "cut_size": 192
+        },
+        "1242": {
+            "size": 92,
+            "internal_density": 0.021739130434782608,
+            "conductance": 0.29457364341085274,
+            "cut_size": 76
+        },
+        "1245": {
+            "size": 28,
+            "internal_density": 0.07142857142857142,
+            "conductance": 0.22857142857142856,
+            "cut_size": 16
+        },
+        "1254": {
+            "size": 11,
+            "internal_density": 0.18181818181818182,
+            "conductance": 0.3333333333333333,
+            "cut_size": 10
+        },
+        "1258": {
+            "size": 67,
+            "internal_density": 0.029850746268656716,
+            "conductance": 0.34328358208955223,
+            "cut_size": 69
+        },
+        "1263": {
+            "size": 16,
+            "internal_density": 0.125,
+            "conductance": 0.375,
+            "cut_size": 18
+        },
+        "1266": {
+            "size": 19,
+            "internal_density": 0.10526315789473684,
+            "conductance": 0.07692307692307693,
+            "cut_size": 3
+        },
+        "1267": {
+            "size": 18,
+            "internal_density": 0.1111111111111111,
+            "conductance": 0.2916666666666667,
+            "cut_size": 14
+        },
+        "1268": {
+            "size": 33,
+            "internal_density": 0.0625,
+            "conductance": 0.2413793103448276,
+            "cut_size": 21
+        },
+        "1273": {
+            "size": 33,
+            "internal_density": 0.03598484848484849,
+            "conductance": 0.3333333333333333,
+            "cut_size": 19
+        },
+        "1274": {
+            "size": 21,
+            "internal_density": 0.09523809523809523,
+            "conductance": 0.21568627450980393,
+            "cut_size": 11
+        },
+        "1280": {
+            "size": 17,
+            "internal_density": 0.0661764705882353,
+            "conductance": 0.3333333333333333,
+            "cut_size": 9
+        },
+        "1287": {
+            "size": 103,
+            "internal_density": 0.019417475728155338,
+            "conductance": 0.1968503937007874,
+            "cut_size": 50
+        },
+        "1289": {
+            "size": 29,
+            "internal_density": 0.07142857142857142,
+            "conductance": 0.23684210526315788,
+            "cut_size": 18
+        },
+        "1292": {
+            "size": 19,
+            "internal_density": 0.10526315789473684,
+            "conductance": 0.25,
+            "cut_size": 12
+        },
+        "1298": {
+            "size": 23,
+            "internal_density": 0.08695652173913043,
+            "conductance": 0.16981132075471697,
+            "cut_size": 9
+        },
+        "1301": {
+            "size": 13,
+            "internal_density": 0.15384615384615385,
+            "conductance": 0.35135135135135137,
+            "cut_size": 13
+        },
+        "1308": {
+            "size": 17,
+            "internal_density": 0.11764705882352941,
+            "conductance": 0.13513513513513514,
+            "cut_size": 5
+        },
+        "1310": {
+            "size": 13,
+            "internal_density": 0.15384615384615385,
+            "conductance": 0.22580645161290322,
+            "cut_size": 7
+        },
+        "1311": {
+            "size": 20,
+            "internal_density": 0.10526315789473684,
+            "conductance": 0.3939393939393939,
+            "cut_size": 26
+        },
+        "1315": {
+            "size": 17,
+            "internal_density": 0.11764705882352941,
+            "conductance": 0.5,
+            "cut_size": 32
+        },
+        "1317": {
+            "size": 144,
+            "internal_density": 0.013888888888888888,
+            "conductance": 0.15634218289085547,
+            "cut_size": 53
+        },
+        "1326": {
+            "size": 11,
+            "internal_density": 0.18181818181818182,
+            "conductance": 0.4594594594594595,
+            "cut_size": 17
+        },
+        "1329": {
+            "size": 41,
+            "internal_density": 0.04878048780487805,
+            "conductance": 0.3700787401574803,
+            "cut_size": 47
+        },
+        "1334": {
+            "size": 21,
+            "internal_density": 0.09523809523809523,
+            "conductance": 0.14893617021276595,
+            "cut_size": 7
+        },
+        "1337": {
+            "size": 11,
+            "internal_density": 0.18181818181818182,
+            "conductance": 0.2857142857142857,
+            "cut_size": 8
+        },
+        "1339": {
+            "size": 18,
+            "internal_density": 0.1111111111111111,
+            "conductance": 0.02857142857142857,
+            "cut_size": 1
+        },
+        "1340": {
+            "size": 28,
+            "internal_density": 0.07142857142857142,
+            "conductance": 0.01818181818181818,
+            "cut_size": 1
+        },
+        "1354": {
+            "size": 56,
+            "internal_density": 0.03571428571428571,
+            "conductance": 0.02654867256637168,
+            "cut_size": 3
+        },
+        "1358": {
+            "size": 37,
+            "internal_density": 0.05405405405405406,
+            "conductance": 0.14285714285714285,
+            "cut_size": 12
+        },
+        "1359": {
+            "size": 26,
+            "internal_density": 0.07692307692307693,
+            "conductance": 0.38271604938271603,
+            "cut_size": 31
+        },
+        "1363": {
+            "size": 29,
+            "internal_density": 0.06896551724137931,
+            "conductance": 0.13846153846153847,
+            "cut_size": 9
+        },
+        "1364": {
+            "size": 28,
+            "internal_density": 0.07142857142857142,
+            "conductance": 0.22857142857142856,
+            "cut_size": 16
+        },
+        "1374": {
+            "size": 24,
+            "internal_density": 0.08333333333333333,
+            "conductance": 0.11538461538461539,
+            "cut_size": 6
+        },
+        "1379": {
+            "size": 18,
+            "internal_density": 0.1111111111111111,
+            "conductance": 0.37037037037037035,
+            "cut_size": 20
+        },
+        "1381": {
+            "size": 104,
+            "internal_density": 0.019230769230769232,
+            "conductance": 0.22556390977443608,
+            "cut_size": 60
+        },
+        "1382": {
+            "size": 17,
+            "internal_density": 0.11764705882352941,
+            "conductance": 0.37254901960784315,
+            "cut_size": 19
+        },
+        "1386": {
+            "size": 40,
+            "internal_density": 0.05,
+            "conductance": 0.38095238095238093,
+            "cut_size": 48
+        },
+        "1392": {
+            "size": 15,
+            "internal_density": 0.13333333333333333,
+            "conductance": 0.36363636363636365,
+            "cut_size": 16
+        },
+        "1397": {
+            "size": 13,
+            "internal_density": 0.15384615384615385,
+            "conductance": 0.3684210526315789,
+            "cut_size": 14
+        },
+        "1401": {
+            "size": 16,
+            "internal_density": 0.125,
+            "conductance": 0.3333333333333333,
+            "cut_size": 15
+        },
+        "1411": {
+            "size": 55,
+            "internal_density": 0.03636363636363636,
+            "conductance": 0.16279069767441862,
+            "cut_size": 21
+        },
+        "1417": {
+            "size": 55,
+            "internal_density": 0.03636363636363636,
+            "conductance": 0.4,
+            "cut_size": 72
+        },
+        "1419": {
+            "size": 130,
+            "internal_density": 0.015384615384615385,
+            "conductance": 0.2853185595567867,
+            "cut_size": 103
+        },
+        "1422": {
+            "size": 15,
+            "internal_density": 0.13333333333333333,
+            "conductance": 0.28205128205128205,
+            "cut_size": 11
+        },
+        "1423": {
+            "size": 10,
+            "internal_density": 0.2,
+            "conductance": 0.18181818181818182,
+            "cut_size": 4
+        },
+        "1425": {
+            "size": 18,
+            "internal_density": 0.1111111111111111,
+            "conductance": 0.30612244897959184,
+            "cut_size": 15
+        },
+        "1430": {
+            "size": 224,
+            "internal_density": 0.008928571428571428,
+            "conductance": 0.35919540229885055,
+            "cut_size": 250
+        },
+        "1437": {
+            "size": 40,
+            "internal_density": 0.05,
+            "conductance": 0.037037037037037035,
+            "cut_size": 3
+        },
+        "1444": {
+            "size": 48,
+            "internal_density": 0.041666666666666664,
+            "conductance": 0.11320754716981132,
+            "cut_size": 12
+        },
+        "1445": {
+            "size": 19,
+            "internal_density": 0.10526315789473684,
+            "conductance": 0.2,
+            "cut_size": 9
+        },
+        "1447": {
+            "size": 35,
+            "internal_density": 0.05714285714285714,
+            "conductance": 0.28421052631578947,
+            "cut_size": 27
+        },
+        "1461": {
+            "size": 30,
+            "internal_density": 0.03908045977011494,
+            "conductance": 0.4925373134328358,
+            "cut_size": 33
+        },
+        "1462": {
+            "size": 22,
+            "internal_density": 0.09090909090909091,
+            "conductance": 0.3225806451612903,
+            "cut_size": 20
+        },
+        "1466": {
+            "size": 48,
+            "internal_density": 0.041666666666666664,
+            "conductance": 0.31386861313868614,
+            "cut_size": 43
+        },
+        "1481": {
+            "size": 28,
+            "internal_density": 0.07142857142857142,
+            "conductance": 0.38636363636363635,
+            "cut_size": 34
+        },
+        "1486": {
+            "size": 22,
+            "internal_density": 0.09090909090909091,
+            "conductance": 0.34375,
+            "cut_size": 22
+        },
+        "1494": {
+            "size": 12,
+            "internal_density": 0.16666666666666666,
+            "conductance": 0.42105263157894735,
+            "cut_size": 16
+        },
+        "1496": {
+            "size": 38,
+            "internal_density": 0.05263157894736842,
+            "conductance": 0.45985401459854014,
+            "cut_size": 63
+        },
+        "1500": {
+            "size": 11,
+            "internal_density": 0.18181818181818182,
+            "conductance": 0.3333333333333333,
+            "cut_size": 10
+        },
+        "1501": {
+            "size": 67,
+            "internal_density": 0.029850746268656716,
+            "conductance": 0.3944954128440367,
+            "cut_size": 86
+        },
+        "1506": {
+            "size": 80,
+            "internal_density": 0.025,
+            "conductance": 0.4148148148148148,
+            "cut_size": 112
+        },
+        "1510": {
+            "size": 10,
+            "internal_density": 0.2,
+            "conductance": 0.05263157894736842,
+            "cut_size": 1
+        },
+        "1517": {
+            "size": 38,
+            "internal_density": 0.05263157894736842,
+            "conductance": 0.39344262295081966,
+            "cut_size": 48
+        },
+        "1519": {
+            "size": 34,
+            "internal_density": 0.058823529411764705,
+            "conductance": 0.3888888888888889,
+            "cut_size": 42
+        },
+        "1520": {
+            "size": 16,
+            "internal_density": 0.125,
+            "conductance": 0.4,
+            "cut_size": 20
+        },
+        "1521": {
+            "size": 20,
+            "internal_density": 0.1,
+            "conductance": 0.3770491803278688,
+            "cut_size": 23
+        },
+        "1527": {
+            "size": 24,
+            "internal_density": 0.08333333333333333,
+            "conductance": 0.3235294117647059,
+            "cut_size": 22
+        },
+        "1528": {
+            "size": 22,
+            "internal_density": 0.09090909090909091,
+            "conductance": 0.10638297872340426,
+            "cut_size": 5
+        },
+        "1529": {
+            "size": 43,
+            "internal_density": 0.046511627906976744,
+            "conductance": 0.35384615384615387,
+            "cut_size": 46
+        },
+        "1553": {
+            "size": 25,
+            "internal_density": 0.08,
+            "conductance": 0.1724137931034483,
+            "cut_size": 10
+        },
+        "1562": {
+            "size": 14,
+            "internal_density": 0.14285714285714285,
+            "conductance": 0.3157894736842105,
+            "cut_size": 12
+        },
+        "1564": {
+            "size": 11,
+            "internal_density": 0.18181818181818182,
+            "conductance": 0.13043478260869565,
+            "cut_size": 3
+        },
+        "1569": {
+            "size": 11,
+            "internal_density": 0.18181818181818182,
+            "conductance": 0.4117647058823529,
+            "cut_size": 14
+        },
+        "1573": {
+            "size": 13,
+            "internal_density": 0.15384615384615385,
+            "conductance": 0.4782608695652174,
+            "cut_size": 22
+        },
+        "1579": {
+            "size": 22,
+            "internal_density": 0.09090909090909091,
+            "conductance": 0.08695652173913043,
+            "cut_size": 4
+        },
+        "1582": {
+            "size": 30,
+            "internal_density": 0.06666666666666667,
+            "conductance": 0.07936507936507936,
+            "cut_size": 5
+        },
+        "1583": {
+            "size": 12,
+            "internal_density": 0.16666666666666666,
+            "conductance": 0.18518518518518517,
+            "cut_size": 5
+        },
+        "1587": {
+            "size": 17,
+            "internal_density": 0.11764705882352941,
+            "conductance": 0.21951219512195122,
+            "cut_size": 9
+        },
+        "1611": {
+            "size": 39,
+            "internal_density": 0.05128205128205128,
+            "conductance": 0.20833333333333334,
+            "cut_size": 20
+        },
+        "1619": {
+            "size": 10,
+            "internal_density": 0.2,
+            "conductance": 0.3793103448275862,
+            "cut_size": 11
+        },
+        "1625": {
+            "size": 16,
+            "internal_density": 0.125,
+            "conductance": 0.4230769230769231,
+            "cut_size": 22
+        },
+        "1632": {
+            "size": 15,
+            "internal_density": 0.13333333333333333,
+            "conductance": 0.2631578947368421,
+            "cut_size": 10
+        },
+        "1634": {
+            "size": 13,
+            "internal_density": 0.15384615384615385,
+            "conductance": 0.14285714285714285,
+            "cut_size": 4
+        },
+        "1635": {
+            "size": 36,
+            "internal_density": 0.05555555555555555,
+            "conductance": 0.4017094017094017,
+            "cut_size": 47
+        },
+        "1636": {
+            "size": 16,
+            "internal_density": 0.13333333333333333,
+            "conductance": 0.23809523809523808,
+            "cut_size": 10
+        },
+        "1643": {
+            "size": 30,
+            "internal_density": 0.06666666666666667,
+            "conductance": 0.2564102564102564,
+            "cut_size": 20
+        },
+        "1645": {
+            "size": 27,
+            "internal_density": 0.07407407407407407,
+            "conductance": 0.13333333333333333,
+            "cut_size": 8
+        },
+        "1650": {
+            "size": 10,
+            "internal_density": 0.2,
+            "conductance": 0.4,
+            "cut_size": 12
+        },
+        "1656": {
+            "size": 26,
+            "internal_density": 0.07692307692307693,
+            "conductance": 0.3055555555555556,
+            "cut_size": 22
+        },
+        "1660": {
+            "size": 12,
+            "internal_density": 0.18181818181818182,
+            "conductance": 0.2727272727272727,
+            "cut_size": 9
+        },
+        "1680": {
+            "size": 20,
+            "internal_density": 0.1,
+            "conductance": 0.13636363636363635,
+            "cut_size": 6
+        },
+        "1683": {
+            "size": 29,
+            "internal_density": 0.06896551724137931,
+            "conductance": 0.15151515151515152,
+            "cut_size": 10
+        },
+        "1686": {
+            "size": 19,
+            "internal_density": 0.10526315789473684,
+            "conductance": 0.47058823529411764,
+            "cut_size": 32
+        },
+        "1687": {
+            "size": 24,
+            "internal_density": 0.08333333333333333,
+            "conductance": 0.3783783783783784,
+            "cut_size": 28
+        },
+        "1703": {
+            "size": 15,
+            "internal_density": 0.13333333333333333,
+            "conductance": 0.034482758620689655,
+            "cut_size": 1
+        },
+        "1705": {
+            "size": 14,
+            "internal_density": 0.14285714285714285,
+            "conductance": 0.43478260869565216,
+            "cut_size": 20
+        },
+        "1708": {
+            "size": 10,
+            "internal_density": 0.2,
+            "conductance": 0.05263157894736842,
+            "cut_size": 1
+        },
+        "1710": {
+            "size": 11,
+            "internal_density": 0.18181818181818182,
+            "conductance": 0.3333333333333333,
+            "cut_size": 10
+        },
+        "1714": {
+            "size": 18,
+            "internal_density": 0.1111111111111111,
+            "conductance": 0.24444444444444444,
+            "cut_size": 11
+        },
+        "1717": {
+            "size": 11,
+            "internal_density": 0.18181818181818182,
+            "conductance": 0.25925925925925924,
+            "cut_size": 7
+        },
+        "1722": {
+            "size": 18,
+            "internal_density": 0.1111111111111111,
+            "conductance": 0.20930232558139536,
+            "cut_size": 9
+        },
+        "1727": {
+            "size": 41,
+            "internal_density": 0.05,
+            "conductance": 0.1276595744680851,
+            "cut_size": 12
+        },
+        "1733": {
+            "size": 39,
+            "internal_density": 0.05128205128205128,
+            "conductance": 0.42857142857142855,
+            "cut_size": 57
+        },
+        "1735": {
+            "size": 10,
+            "internal_density": 0.2,
+            "conductance": 0.1,
+            "cut_size": 2
+        },
+        "1736": {
+            "size": 22,
+            "internal_density": 0.09090909090909091,
+            "conductance": 0.16,
+            "cut_size": 8
+        },
+        "1738": {
+            "size": 10,
+            "internal_density": 0.2,
+            "conductance": 0.21739130434782608,
+            "cut_size": 5
+        },
+        "1746": {
+            "size": 26,
+            "internal_density": 0.07692307692307693,
+            "conductance": 0.2857142857142857,
+            "cut_size": 20
+        },
+        "1748": {
+            "size": 21,
+            "internal_density": 0.09523809523809523,
+            "conductance": 0.25925925925925924,
+            "cut_size": 14
+        },
+        "1750": {
+            "size": 30,
+            "internal_density": 0.06666666666666667,
+            "conductance": 0.41414141414141414,
+            "cut_size": 41
+        },
+        "1754": {
+            "size": 13,
+            "internal_density": 0.15384615384615385,
+            "conductance": 0.22580645161290322,
+            "cut_size": 7
+        },
+        "1755": {
+            "size": 15,
+            "internal_density": 0.13333333333333333,
+            "conductance": 0.3333333333333333,
+            "cut_size": 14
+        },
+        "1759": {
+            "size": 41,
+            "internal_density": 0.04878048780487805,
+            "conductance": 0.38461538461538464,
+            "cut_size": 50
+        },
+        "1761": {
+            "size": 28,
+            "internal_density": 0.07142857142857142,
+            "conductance": 0.38636363636363635,
+            "cut_size": 34
+        },
+        "1764": {
+            "size": 48,
+            "internal_density": 0.041666666666666664,
+            "conductance": 0.15315315315315314,
+            "cut_size": 17
+        },
+        "1766": {
+            "size": 39,
+            "internal_density": 0.05128205128205128,
+            "conductance": 0.12643678160919541,
+            "cut_size": 11
+        },
+        "1776": {
+            "size": 16,
+            "internal_density": 0.125,
+            "conductance": 0.23076923076923078,
+            "cut_size": 9
+        },
+        "1784": {
+            "size": 11,
+            "internal_density": 0.18181818181818182,
+            "conductance": 0.2857142857142857,
+            "cut_size": 8
+        },
+        "1785": {
+            "size": 10,
+            "internal_density": 0.2,
+            "conductance": 0.14285714285714285,
+            "cut_size": 3
+        },
+        "1786": {
+            "size": 18,
+            "internal_density": 0.1111111111111111,
+            "conductance": 0.34615384615384615,
+            "cut_size": 18
+        },
+        "1800": {
+            "size": 26,
+            "internal_density": 0.07692307692307693,
+            "conductance": 0.2647058823529412,
+            "cut_size": 18
+        },
+        "1803": {
+            "size": 18,
+            "internal_density": 0.1111111111111111,
+            "conductance": 0.38181818181818183,
+            "cut_size": 21
+        },
+        "1804": {
+            "size": 38,
+            "internal_density": 0.05263157894736842,
+            "conductance": 0.37815126050420167,
+            "cut_size": 45
+        },
+        "1807": {
+            "size": 30,
+            "internal_density": 0.06666666666666667,
+            "conductance": 0.09375,
+            "cut_size": 6
+        },
+        "1812": {
+            "size": 110,
+            "internal_density": 0.01818181818181818,
+            "conductance": 0.16793893129770993,
+            "cut_size": 44
+        },
+        "1813": {
+            "size": 10,
+            "internal_density": 0.2,
+            "conductance": 0.1,
+            "cut_size": 2
+        },
+        "1814": {
+            "size": 11,
+            "internal_density": 0.2,
+            "conductance": 0.12,
+            "cut_size": 3
+        },
+        "1817": {
+            "size": 14,
+            "internal_density": 0.14285714285714285,
+            "conductance": 0.10344827586206896,
+            "cut_size": 3
+        },
+        "1818": {
+            "size": 32,
+            "internal_density": 0.0625,
+            "conductance": 0.046153846153846156,
+            "cut_size": 3
+        },
+        "1823": {
+            "size": 31,
+            "internal_density": 0.06451612903225806,
+            "conductance": 0.1044776119402985,
+            "cut_size": 7
+        },
+        "1826": {
+            "size": 15,
+            "internal_density": 0.13333333333333333,
+            "conductance": 0.28205128205128205,
+            "cut_size": 11
+        },
+        "1829": {
+            "size": 18,
+            "internal_density": 0.1111111111111111,
+            "conductance": 0.4426229508196721,
+            "cut_size": 27
+        },
+        "1841": {
+            "size": 31,
+            "internal_density": 0.06451612903225806,
+            "conductance": 0.3181818181818182,
+            "cut_size": 28
+        },
+        "1844": {
+            "size": 24,
+            "internal_density": 0.08333333333333333,
+            "conductance": 0.3235294117647059,
+            "cut_size": 22
+        },
+        "1847": {
+            "size": 18,
+            "internal_density": 0.1111111111111111,
+            "conductance": 0.08108108108108109,
+            "cut_size": 3
+        },
+        "1854": {
+            "size": 24,
+            "internal_density": 0.050724637681159424,
+            "conductance": 0.36363636363636365,
+            "cut_size": 16
+        },
+        "1862": {
+            "size": 20,
+            "internal_density": 0.1,
+            "conductance": 0.17391304347826086,
+            "cut_size": 8
+        },
+        "1865": {
+            "size": 16,
+            "internal_density": 0.125,
+            "conductance": 0.09090909090909091,
+            "cut_size": 3
+        },
+        "1876": {
+            "size": 28,
+            "internal_density": 0.07142857142857142,
+            "conductance": 0.34146341463414637,
+            "cut_size": 28
+        },
+        "1887": {
+            "size": 55,
+            "internal_density": 0.03636363636363636,
+            "conductance": 0.29411764705882354,
+            "cut_size": 45
+        },
+        "1890": {
+            "size": 15,
+            "internal_density": 0.1523809523809524,
+            "conductance": 0.28888888888888886,
+            "cut_size": 13
+        },
+        "1897": {
+            "size": 10,
+            "internal_density": 0.2,
+            "conductance": 0.4,
+            "cut_size": 12
+        },
+        "1898": {
+            "size": 18,
+            "internal_density": 0.1111111111111111,
+            "conductance": 0.20930232558139536,
+            "cut_size": 9
+        },
+        "1902": {
+            "size": 34,
+            "internal_density": 0.062388591800356503,
+            "conductance": 0.10256410256410256,
+            "cut_size": 8
+        },
+        "1904": {
+            "size": 48,
+            "internal_density": 0.0425531914893617,
+            "conductance": 0.1794871794871795,
+            "cut_size": 21
+        },
+        "1910": {
+            "size": 11,
+            "internal_density": 0.18181818181818182,
+            "conductance": 0.13043478260869565,
+            "cut_size": 3
+        },
+        "1916": {
+            "size": 12,
+            "internal_density": 0.16666666666666666,
+            "conductance": 0.18518518518518517,
+            "cut_size": 5
+        },
+        "1918": {
+            "size": 15,
+            "internal_density": 0.13333333333333333,
+            "conductance": 0.2222222222222222,
+            "cut_size": 8
+        },
+        "1920": {
+            "size": 24,
+            "internal_density": 0.08333333333333333,
+            "conductance": 0.352112676056338,
+            "cut_size": 25
+        },
+        "1922": {
+            "size": 15,
+            "internal_density": 0.13333333333333333,
+            "conductance": 0.3,
+            "cut_size": 12
+        },
+        "1928": {
+            "size": 63,
+            "internal_density": 0.031746031746031744,
+            "conductance": 0.21019108280254778,
+            "cut_size": 33
+        },
+        "1929": {
+            "size": 19,
+            "internal_density": 0.10526315789473684,
+            "conductance": 0.3333333333333333,
+            "cut_size": 18
+        },
+        "1938": {
+            "size": 10,
+            "internal_density": 0.2,
+            "conductance": 0.3793103448275862,
+            "cut_size": 11
+        },
+        "1947": {
+            "size": 13,
+            "internal_density": 0.15384615384615385,
+            "conductance": 0.35135135135135137,
+            "cut_size": 13
+        },
+        "1949": {
+            "size": 11,
+            "internal_density": 0.18181818181818182,
+            "conductance": 0.16666666666666666,
+            "cut_size": 4
+        },
+        "1953": {
+            "size": 10,
+            "internal_density": 0.2,
+            "conductance": 0.05263157894736842,
+            "cut_size": 1
+        },
+        "1964": {
+            "size": 13,
+            "internal_density": 0.15384615384615385,
+            "conductance": 0.3142857142857143,
+            "cut_size": 11
+        },
+        "1966": {
+            "size": 39,
+            "internal_density": 0.05128205128205128,
+            "conductance": 0.3504273504273504,
+            "cut_size": 41
+        },
+        "1968": {
+            "size": 26,
+            "internal_density": 0.07692307692307693,
+            "conductance": 0.18032786885245902,
+            "cut_size": 11
+        },
+        "1979": {
+            "size": 46,
+            "internal_density": 0.043478260869565216,
+            "conductance": 0.03225806451612903,
+            "cut_size": 3
+        },
+        "1984": {
+            "size": 14,
+            "internal_density": 0.14285714285714285,
+            "conductance": 0.4090909090909091,
+            "cut_size": 18
+        },
+        "1985": {
+            "size": 17,
+            "internal_density": 0.11764705882352941,
+            "conductance": 0.4074074074074074,
+            "cut_size": 22
+        },
+        "1990": {
+            "size": 10,
+            "internal_density": 0.2222222222222222,
+            "conductance": 0.16666666666666666,
+            "cut_size": 4
+        },
+        "1994": {
+            "size": 53,
+            "internal_density": 0.03773584905660377,
+            "conductance": 0.168,
+            "cut_size": 21
+        },
+        "2001": {
+            "size": 17,
+            "internal_density": 0.11764705882352941,
+            "conductance": 0.2558139534883721,
+            "cut_size": 11
+        },
+        "2003": {
+            "size": 17,
+            "internal_density": 0.11764705882352941,
+            "conductance": 0.1794871794871795,
+            "cut_size": 7
+        },
+        "2015": {
+            "size": 16,
+            "internal_density": 0.125,
+            "conductance": 0.2857142857142857,
+            "cut_size": 12
+        },
+        "2023": {
+            "size": 27,
+            "internal_density": 0.07407407407407407,
+            "conductance": 0.36585365853658536,
+            "cut_size": 30
+        },
+        "2025": {
+            "size": 10,
+            "internal_density": 0.2,
+            "conductance": 0.05263157894736842,
+            "cut_size": 1
+        },
+        "2028": {
+            "size": 14,
+            "internal_density": 0.08791208791208792,
+            "conductance": 0.38461538461538464,
+            "cut_size": 10
+        },
+        "2030": {
+            "size": 12,
+            "internal_density": 0.16666666666666666,
+            "conductance": 0.15384615384615385,
+            "cut_size": 4
+        },
+        "2040": {
+            "size": 17,
+            "internal_density": 0.11764705882352941,
+            "conductance": 0.2727272727272727,
+            "cut_size": 12
+        },
+        "2056": {
+            "size": 10,
+            "internal_density": 0.2,
+            "conductance": 0.21739130434782608,
+            "cut_size": 5
+        },
+        "2059": {
+            "size": 15,
+            "internal_density": 0.13333333333333333,
+            "conductance": 0.391304347826087,
+            "cut_size": 18
+        },
+        "2067": {
+            "size": 18,
+            "internal_density": 0.1111111111111111,
+            "conductance": 0.30612244897959184,
+            "cut_size": 15
+        },
+        "2068": {
+            "size": 52,
+            "internal_density": 0.038461538461538464,
+            "conductance": 0.4975369458128079,
+            "cut_size": 101
+        },
+        "2079": {
+            "size": 11,
+            "internal_density": 0.18181818181818182,
+            "conductance": 0.375,
+            "cut_size": 12
+        },
+        "2080": {
+            "size": 34,
+            "internal_density": 0.058823529411764705,
+            "conductance": 0.029411764705882353,
+            "cut_size": 2
+        },
+        "2082": {
+            "size": 78,
+            "internal_density": 0.02564102564102564,
+            "conductance": 0.32158590308370044,
+            "cut_size": 73
+        },
+        "2085": {
+            "size": 19,
+            "internal_density": 0.10526315789473684,
+            "conductance": 0.18181818181818182,
+            "cut_size": 8
+        },
+        "2099": {
+            "size": 31,
+            "internal_density": 0.06666666666666667,
+            "conductance": 0.1267605633802817,
+            "cut_size": 9
+        },
+        "2101": {
+            "size": 56,
+            "internal_density": 0.03571428571428571,
+            "conductance": 0.4883720930232558,
+            "cut_size": 105
+        },
+        "2105": {
+            "size": 11,
+            "internal_density": 0.18181818181818182,
+            "conductance": 0.3333333333333333,
+            "cut_size": 10
+        },
+        "2111": {
+            "size": 73,
+            "internal_density": 0.0273972602739726,
+            "conductance": 0.4308300395256917,
+            "cut_size": 109
+        },
+        "2127": {
+            "size": 20,
+            "internal_density": 0.1,
+            "conductance": 0.19148936170212766,
+            "cut_size": 9
+        },
+        "2129": {
+            "size": 14,
+            "internal_density": 0.14285714285714285,
+            "conductance": 0.38095238095238093,
+            "cut_size": 16
+        },
+        "2139": {
+            "size": 16,
+            "internal_density": 0.125,
+            "conductance": 0.09090909090909091,
+            "cut_size": 3
+        },
+        "2140": {
+            "size": 11,
+            "internal_density": 0.10909090909090909,
+            "conductance": 0.5384615384615384,
+            "cut_size": 14
+        },
+        "2142": {
+            "size": 16,
+            "internal_density": 0.125,
+            "conductance": 0.34782608695652173,
+            "cut_size": 16
+        },
+        "2156": {
+            "size": 10,
+            "internal_density": 0.2,
+            "conductance": 0.1,
+            "cut_size": 2
+        },
+        "2158": {
+            "size": 10,
+            "internal_density": 0.2,
+            "conductance": 0.21739130434782608,
+            "cut_size": 5
+        },
+        "2160": {
+            "size": 30,
+            "internal_density": 0.06666666666666667,
+            "conductance": 0.30952380952380953,
+            "cut_size": 26
+        },
+        "2163": {
+            "size": 28,
+            "internal_density": 0.07142857142857142,
+            "conductance": 0.14285714285714285,
+            "cut_size": 9
+        },
+        "2178": {
+            "size": 17,
+            "internal_density": 0.11764705882352941,
+            "conductance": 0.38461538461538464,
+            "cut_size": 20
+        },
+        "2181": {
+            "size": 10,
+            "internal_density": 0.2,
+            "conductance": 0.1,
+            "cut_size": 2
+        },
+        "2185": {
+            "size": 25,
+            "internal_density": 0.08,
+            "conductance": 0.2727272727272727,
+            "cut_size": 18
+        },
+        "2187": {
+            "size": 12,
+            "internal_density": 0.16666666666666666,
+            "conductance": 0.3125,
+            "cut_size": 10
+        },
+        "2193": {
+            "size": 14,
+            "internal_density": 0.14285714285714285,
+            "conductance": 0.1875,
+            "cut_size": 6
+        },
+        "2196": {
+            "size": 19,
+            "internal_density": 0.10526315789473684,
+            "conductance": 0.2653061224489796,
+            "cut_size": 13
+        },
+        "2198": {
+            "size": 81,
+            "internal_density": 0.024691358024691357,
+            "conductance": 0.3469387755102041,
+            "cut_size": 85
+        },
+        "2203": {
+            "size": 12,
+            "internal_density": 0.16666666666666666,
+            "conductance": 0.08333333333333333,
+            "cut_size": 2
+        },
+        "2204": {
+            "size": 14,
+            "internal_density": 0.14285714285714285,
+            "conductance": 0.35,
+            "cut_size": 14
+        },
+        "2207": {
+            "size": 13,
+            "internal_density": 0.15384615384615385,
+            "conductance": 0.35135135135135137,
+            "cut_size": 13
+        },
+        "2215": {
+            "size": 23,
+            "internal_density": 0.08695652173913043,
+            "conductance": 0.30158730158730157,
+            "cut_size": 19
+        },
+        "2217": {
+            "size": 10,
+            "internal_density": 0.2,
+            "conductance": 0.21739130434782608,
+            "cut_size": 5
+        },
+        "2226": {
+            "size": 12,
+            "internal_density": 0.10606060606060606,
+            "conductance": 0.5,
+            "cut_size": 14
+        },
+        "2232": {
+            "size": 40,
+            "internal_density": 0.05,
+            "conductance": 0.1702127659574468,
+            "cut_size": 16
+        },
+        "2240": {
+            "size": 10,
+            "internal_density": 0.2,
+            "conductance": 0.1,
+            "cut_size": 2
+        },
+        "2243": {
+            "size": 50,
+            "internal_density": 0.04,
+            "conductance": 0.06666666666666667,
+            "cut_size": 7
+        },
+        "2247": {
+            "size": 12,
+            "internal_density": 0.16666666666666666,
+            "conductance": 0.2413793103448276,
+            "cut_size": 7
+        },
+        "2250": {
+            "size": 19,
+            "internal_density": 0.10526315789473684,
+            "conductance": 0.23404255319148937,
+            "cut_size": 11
+        },
+        "2255": {
+            "size": 27,
+            "internal_density": 0.07407407407407407,
+            "conductance": 0.2571428571428571,
+            "cut_size": 18
+        },
+        "2261": {
+            "size": 16,
+            "internal_density": 0.125,
+            "conductance": 0.4,
+            "cut_size": 20
+        },
+        "2263": {
+            "size": 27,
+            "internal_density": 0.07407407407407407,
+            "conductance": 0.16129032258064516,
+            "cut_size": 10
+        },
+        "2278": {
+            "size": 34,
+            "internal_density": 0.058823529411764705,
+            "conductance": 0.2978723404255319,
+            "cut_size": 28
+        },
+        "2287": {
+            "size": 39,
+            "internal_density": 0.05128205128205128,
+            "conductance": 0.3821138211382114,
+            "cut_size": 47
+        },
+        "2288": {
+            "size": 10,
+            "internal_density": 0.2,
+            "conductance": 0.3793103448275862,
+            "cut_size": 11
+        },
+        "2289": {
+            "size": 12,
+            "internal_density": 0.16666666666666666,
+            "conductance": 0.15384615384615385,
+            "cut_size": 4
+        },
+        "2291": {
+            "size": 15,
+            "internal_density": 0.13333333333333333,
+            "conductance": 0.24324324324324326,
+            "cut_size": 9
+        },
+        "2299": {
+            "size": 22,
+            "internal_density": 0.09090909090909091,
+            "conductance": 0.3333333333333333,
+            "cut_size": 21
+        },
+        "2323": {
+            "size": 18,
+            "internal_density": 0.1111111111111111,
+            "conductance": 0.45161290322580644,
+            "cut_size": 28
+        },
+        "2329": {
+            "size": 24,
+            "internal_density": 0.08333333333333333,
+            "conductance": 0.1320754716981132,
+            "cut_size": 7
+        },
+        "2336": {
+            "size": 12,
+            "internal_density": 0.16666666666666666,
+            "conductance": 0.3333333333333333,
+            "cut_size": 11
+        },
+        "2341": {
+            "size": 23,
+            "internal_density": 0.08695652173913043,
+            "conductance": 0.41333333333333333,
+            "cut_size": 31
+        },
+        "2353": {
+            "size": 13,
+            "internal_density": 0.08974358974358974,
+            "conductance": 0.3,
+            "cut_size": 6
+        },
+        "2354": {
+            "size": 13,
+            "internal_density": 0.15384615384615385,
+            "conductance": 0.3684210526315789,
+            "cut_size": 14
+        },
+        "2357": {
+            "size": 10,
+            "internal_density": 0.2,
+            "conductance": 0.28,
+            "cut_size": 7
+        },
+        "2369": {
+            "size": 14,
+            "internal_density": 0.14285714285714285,
+            "conductance": 0.36585365853658536,
+            "cut_size": 15
+        },
+        "2384": {
+            "size": 13,
+            "internal_density": 0.1794871794871795,
+            "conductance": 0.2222222222222222,
+            "cut_size": 8
+        },
+        "2387": {
+            "size": 29,
+            "internal_density": 0.06896551724137931,
+            "conductance": 0.0967741935483871,
+            "cut_size": 6
+        },
+        "2407": {
+            "size": 17,
+            "internal_density": 0.11764705882352941,
+            "conductance": 0.2727272727272727,
+            "cut_size": 12
+        },
+        "2418": {
+            "size": 98,
+            "internal_density": 0.02040816326530612,
+            "conductance": 0.1415929203539823,
+            "cut_size": 32
+        },
+        "2425": {
+            "size": 34,
+            "internal_density": 0.06060606060606061,
+            "conductance": 0.34615384615384615,
+            "cut_size": 36
+        },
+        "2430": {
+            "size": 55,
+            "internal_density": 0.03636363636363636,
+            "conductance": 0.43455497382198954,
+            "cut_size": 83
+        },
+        "2444": {
+            "size": 12,
+            "internal_density": 0.16666666666666666,
+            "conductance": 0.15384615384615385,
+            "cut_size": 4
+        },
+        "2465": {
+            "size": 19,
+            "internal_density": 0.10526315789473684,
+            "conductance": 0.28,
+            "cut_size": 14
+        },
+        "2475": {
+            "size": 18,
+            "internal_density": 0.1111111111111111,
+            "conductance": 0.41379310344827586,
+            "cut_size": 24
+        },
+        "2481": {
+            "size": 16,
+            "internal_density": 0.125,
+            "conductance": 0.34782608695652173,
+            "cut_size": 16
+        },
+        "2486": {
+            "size": 25,
+            "internal_density": 0.08333333333333333,
+            "conductance": 0.2647058823529412,
+            "cut_size": 18
+        },
+        "2493": {
+            "size": 10,
+            "internal_density": 0.2,
+            "conductance": 0.3076923076923077,
+            "cut_size": 8
+        },
+        "2502": {
+            "size": 12,
+            "internal_density": 0.16666666666666666,
+            "conductance": 0.35294117647058826,
+            "cut_size": 12
+        },
+        "2509": {
+            "size": 34,
+            "internal_density": 0.058823529411764705,
+            "conductance": 0.23255813953488372,
+            "cut_size": 20
+        },
+        "2516": {
+            "size": 25,
+            "internal_density": 0.08,
+            "conductance": 0.4074074074074074,
+            "cut_size": 33
+        },
+        "2524": {
+            "size": 14,
+            "internal_density": 0.0989010989010989,
+            "conductance": 0.5384615384615384,
+            "cut_size": 21
+        },
+        "2526": {
+            "size": 17,
+            "internal_density": 0.11764705882352941,
+            "conductance": 0.15789473684210525,
+            "cut_size": 6
+        },
+        "2527": {
+            "size": 10,
+            "internal_density": 0.2,
+            "conductance": 0.41935483870967744,
+            "cut_size": 13
+        },
+        "2529": {
+            "size": 16,
+            "internal_density": 0.125,
+            "conductance": 0.3181818181818182,
+            "cut_size": 14
+        },
+        "2546": {
+            "size": 14,
+            "internal_density": 0.14285714285714285,
+            "conductance": 0.4090909090909091,
+            "cut_size": 18
+        },
+        "2551": {
+            "size": 17,
+            "internal_density": 0.11764705882352941,
+            "conductance": 0.23809523809523808,
+            "cut_size": 10
+        },
+        "2553": {
+            "size": 14,
+            "internal_density": 0.14285714285714285,
+            "conductance": 0.3953488372093023,
+            "cut_size": 17
+        },
+        "2571": {
+            "size": 23,
+            "internal_density": 0.08695652173913043,
+            "conductance": 0.2786885245901639,
+            "cut_size": 17
+        },
+        "2573": {
+            "size": 14,
+            "internal_density": 0.14285714285714285,
+            "conductance": 0.1875,
+            "cut_size": 6
+        },
+        "2576": {
+            "size": 31,
+            "internal_density": 0.06451612903225806,
+            "conductance": 0.11764705882352941,
+            "cut_size": 8
+        },
+        "2580": {
+            "size": 11,
+            "internal_density": 0.2,
+            "conductance": 0.2413793103448276,
+            "cut_size": 7
+        },
+        "2592": {
+            "size": 19,
+            "internal_density": 0.10526315789473684,
+            "conductance": 0.18181818181818182,
+            "cut_size": 8
+        },
+        "2594": {
+            "size": 25,
+            "internal_density": 0.08,
+            "conductance": 0.3684210526315789,
+            "cut_size": 28
+        },
+        "2600": {
+            "size": 29,
+            "internal_density": 0.06896551724137931,
+            "conductance": 0.15151515151515152,
+            "cut_size": 10
+        },
+        "2601": {
+            "size": 15,
+            "internal_density": 0.13333333333333333,
+            "conductance": 0.40425531914893614,
+            "cut_size": 19
+        },
+        "2603": {
+            "size": 10,
+            "internal_density": 0.2,
+            "conductance": 0.35714285714285715,
+            "cut_size": 10
+        },
+        "2610": {
+            "size": 11,
+            "internal_density": 0.18181818181818182,
+            "conductance": 0.23076923076923078,
+            "cut_size": 6
+        },
+        "2624": {
+            "size": 27,
+            "internal_density": 0.07407407407407407,
+            "conductance": 0.14754098360655737,
+            "cut_size": 9
+        },
+        "2632": {
+            "size": 10,
+            "internal_density": 0.2,
+            "conductance": 0.3333333333333333,
+            "cut_size": 9
+        },
+        "2638": {
+            "size": 15,
+            "internal_density": 0.13333333333333333,
+            "conductance": 0.15151515151515152,
+            "cut_size": 5
+        },
+        "2646": {
+            "size": 30,
+            "internal_density": 0.04367816091954023,
+            "conductance": 0.3968253968253968,
+            "cut_size": 25
+        },
+        "2653": {
+            "size": 13,
+            "internal_density": 0.15384615384615385,
+            "conductance": 0.1724137931034483,
+            "cut_size": 5
+        },
+        "2659": {
+            "size": 13,
+            "internal_density": 0.15384615384615385,
+            "conductance": 0.3142857142857143,
+            "cut_size": 11
+        },
+        "2664": {
+            "size": 14,
+            "internal_density": 0.14285714285714285,
+            "conductance": 0.13333333333333333,
+            "cut_size": 4
+        },
+        "2669": {
+            "size": 15,
+            "internal_density": 0.13333333333333333,
+            "conductance": 0.17647058823529413,
+            "cut_size": 6
+        },
+        "2680": {
+            "size": 10,
+            "internal_density": 0.2,
+            "conductance": 0.35714285714285715,
+            "cut_size": 10
+        },
+        "2682": {
+            "size": 32,
+            "internal_density": 0.06653225806451613,
+            "conductance": 0.26666666666666666,
+            "cut_size": 24
+        },
+        "2688": {
+            "size": 13,
+            "internal_density": 0.15384615384615385,
+            "conductance": 0.1724137931034483,
+            "cut_size": 5
+        },
+        "2689": {
+            "size": 18,
+            "internal_density": 0.1111111111111111,
+            "conductance": 0.34615384615384615,
+            "cut_size": 18
+        },
+        "2691": {
+            "size": 11,
+            "internal_density": 0.18181818181818182,
+            "conductance": 0.3939393939393939,
+            "cut_size": 13
+        },
+        "2693": {
+            "size": 13,
+            "internal_density": 0.14102564102564102,
+            "conductance": 0.2903225806451613,
+            "cut_size": 9
+        },
+        "2694": {
+            "size": 11,
+            "internal_density": 0.18181818181818182,
+            "conductance": 0.3333333333333333,
+            "cut_size": 10
+        },
+        "2696": {
+            "size": 58,
+            "internal_density": 0.034482758620689655,
+            "conductance": 0.4,
+            "cut_size": 76
+        },
+        "2700": {
+            "size": 11,
+            "internal_density": 0.18181818181818182,
+            "conductance": 0.16666666666666666,
+            "cut_size": 4
+        },
+        "2705": {
+            "size": 11,
+            "internal_density": 0.18181818181818182,
+            "conductance": 0.047619047619047616,
+            "cut_size": 1
+        },
+        "2713": {
+            "size": 21,
+            "internal_density": 0.09523809523809523,
+            "conductance": 0.1836734693877551,
+            "cut_size": 9
+        },
+        "2714": {
+            "size": 11,
+            "internal_density": 0.18181818181818182,
+            "conductance": 0.047619047619047616,
+            "cut_size": 1
+        },
+        "2735": {
+            "size": 10,
+            "internal_density": 0.2,
+            "conductance": 0.41935483870967744,
+            "cut_size": 13
+        },
+        "2750": {
+            "size": 17,
+            "internal_density": 0.11764705882352941,
+            "conductance": 0.030303030303030304,
+            "cut_size": 1
+        },
+        "2815": {
+            "size": 12,
+            "internal_density": 0.16666666666666666,
+            "conductance": 0.2903225806451613,
+            "cut_size": 9
+        },
+        "2842": {
+            "size": 12,
+            "internal_density": 0.16666666666666666,
+            "conductance": 0.18518518518518517,
+            "cut_size": 5
+        },
+        "2876": {
+            "size": 10,
+            "internal_density": 0.2,
+            "conductance": 0.18181818181818182,
+            "cut_size": 4
+        },
+        "2879": {
+            "size": 25,
+            "internal_density": 0.08,
+            "conductance": 0.30434782608695654,
+            "cut_size": 21
+        },
+        "2883": {
+            "size": 17,
+            "internal_density": 0.11764705882352941,
+            "conductance": 0.13513513513513514,
+            "cut_size": 5
+        },
+        "2902": {
+            "size": 11,
+            "internal_density": 0.18181818181818182,
+            "conductance": 0.09090909090909091,
+            "cut_size": 2
+        },
+        "2917": {
+            "size": 15,
+            "internal_density": 0.13333333333333333,
+            "conductance": 0.46153846153846156,
+            "cut_size": 24
+        },
+        "2942": {
+            "size": 14,
+            "internal_density": 0.14285714285714285,
+            "conductance": 0.07142857142857142,
+            "cut_size": 2
+        },
+        "2945": {
+            "size": 13,
+            "internal_density": 0.15384615384615385,
+            "conductance": 0.3142857142857143,
+            "cut_size": 11
+        },
+        "2968": {
+            "size": 12,
+            "internal_density": 0.16666666666666666,
+            "conductance": 0.3125,
+            "cut_size": 10
+        },
+        "2984": {
+            "size": 12,
+            "internal_density": 0.16666666666666666,
+            "conductance": 0.043478260869565216,
+            "cut_size": 1
+        },
+        "2986": {
+            "size": 29,
+            "internal_density": 0.06896551724137931,
+            "conductance": 0.17647058823529413,
+            "cut_size": 12
+        },
+        "2992": {
+            "size": 11,
+            "internal_density": 0.18181818181818182,
+            "conductance": 0.3103448275862069,
+            "cut_size": 9
+        },
+        "3000": {
+            "size": 14,
+            "internal_density": 0.14285714285714285,
+            "conductance": 0.21212121212121213,
+            "cut_size": 7
+        },
+        "3002": {
+            "size": 10,
+            "internal_density": 0.2,
+            "conductance": 0.3333333333333333,
+            "cut_size": 9
+        },
+        "3012": {
+            "size": 24,
+            "internal_density": 0.08333333333333333,
+            "conductance": 0.14814814814814814,
+            "cut_size": 8
+        },
+        "3020": {
+            "size": 14,
+            "internal_density": 0.14285714285714285,
+            "conductance": 0.13333333333333333,
+            "cut_size": 4
+        },
+        "3022": {
+            "size": 15,
+            "internal_density": 0.13333333333333333,
+            "conductance": 0.4166666666666667,
+            "cut_size": 20
+        },
+        "3026": {
+            "size": 30,
+            "internal_density": 0.06666666666666667,
+            "conductance": 0.07936507936507936,
+            "cut_size": 5
+        },
+        "3043": {
+            "size": 19,
+            "internal_density": 0.10526315789473684,
+            "conductance": 0.3333333333333333,
+            "cut_size": 18
+        },
+        "3051": {
+            "size": 11,
+            "internal_density": 0.18181818181818182,
+            "conductance": 0.375,
+            "cut_size": 12
+        },
+        "3062": {
+            "size": 29,
+            "internal_density": 0.06896551724137931,
+            "conductance": 0.24324324324324326,
+            "cut_size": 18
+        },
+        "3067": {
+            "size": 10,
+            "internal_density": 0.2,
+            "conductance": 0.25,
+            "cut_size": 6
+        },
+        "3093": {
+            "size": 99,
+            "internal_density": 0.020202020202020204,
+            "conductance": 0.010101010101010102,
+            "cut_size": 2
+        },
+        "3097": {
+            "size": 14,
+            "internal_density": 0.15384615384615385,
+            "conductance": 0.2222222222222222,
+            "cut_size": 8
+        },
+        "3109": {
+            "size": 17,
+            "internal_density": 0.11764705882352941,
+            "conductance": 0.38461538461538464,
+            "cut_size": 20
+        },
+        "3126": {
+            "size": 10,
+            "internal_density": 0.2,
+            "conductance": 0.3076923076923077,
+            "cut_size": 8
+        },
+        "3152": {
+            "size": 20,
+            "internal_density": 0.1,
+            "conductance": 0.19148936170212766,
+            "cut_size": 9
+        },
+        "3155": {
+            "size": 17,
+            "internal_density": 0.11764705882352941,
+            "conductance": 0.15789473684210525,
+            "cut_size": 6
+        },
+        "3156": {
+            "size": 16,
+            "internal_density": 0.125,
+            "conductance": 0.21052631578947367,
+            "cut_size": 8
+        },
+        "3162": {
+            "size": 22,
+            "internal_density": 0.09090909090909091,
+            "conductance": 0.288135593220339,
+            "cut_size": 17
+        },
+        "3164": {
+            "size": 10,
+            "internal_density": 0.2,
+            "conductance": 0.5263157894736842,
+            "cut_size": 20
+        },
+        "3166": {
+            "size": 12,
+            "internal_density": 0.16666666666666666,
+            "conductance": 0.26666666666666666,
+            "cut_size": 8
+        },
+        "3175": {
+            "size": 12,
+            "internal_density": 0.16666666666666666,
+            "conductance": 0.21428571428571427,
+            "cut_size": 6
+        },
+        "3178": {
+            "size": 11,
+            "internal_density": 0.18181818181818182,
+            "conductance": 0.2857142857142857,
+            "cut_size": 8
+        },
+        "3190": {
+            "size": 14,
+            "internal_density": 0.14285714285714285,
+            "conductance": 0.1875,
+            "cut_size": 6
+        },
+        "3191": {
+            "size": 29,
+            "internal_density": 0.06896551724137931,
+            "conductance": 0.3333333333333333,
+            "cut_size": 28
+        },
+        "3193": {
+            "size": 24,
+            "internal_density": 0.08333333333333333,
+            "conductance": 0.34285714285714286,
+            "cut_size": 24
+        },
+        "3198": {
+            "size": 20,
+            "internal_density": 0.1,
+            "conductance": 0.15555555555555556,
+            "cut_size": 7
+        },
+        "3206": {
+            "size": 24,
+            "internal_density": 0.08333333333333333,
+            "conductance": 0.08,
+            "cut_size": 4
+        },
+        "3228": {
+            "size": 12,
+            "internal_density": 0.16666666666666666,
+            "conductance": 0.2903225806451613,
+            "cut_size": 9
+        },
+        "3269": {
+            "size": 29,
+            "internal_density": 0.06896551724137931,
+            "conductance": 0.15151515151515152,
+            "cut_size": 10
+        },
+        "3283": {
+            "size": 11,
+            "internal_density": 0.18181818181818182,
+            "conductance": 0.23076923076923078,
+            "cut_size": 6
+        },
+        "3307": {
+            "size": 15,
+            "internal_density": 0.13333333333333333,
+            "conductance": 0.3488372093023256,
+            "cut_size": 15
+        },
+        "3310": {
+            "size": 10,
+            "internal_density": 0.2,
+            "conductance": 0.14285714285714285,
+            "cut_size": 3
+        },
+        "3325": {
+            "size": 11,
+            "internal_density": 0.18181818181818182,
+            "conductance": 0.13043478260869565,
+            "cut_size": 3
+        },
+        "3327": {
+            "size": 25,
+            "internal_density": 0.08,
+            "conductance": 0.21311475409836064,
+            "cut_size": 13
+        },
+        "3362": {
+            "size": 18,
+            "internal_density": 0.1111111111111111,
+            "conductance": 0.2608695652173913,
+            "cut_size": 12
+        },
+        "3365": {
+            "size": 15,
+            "internal_density": 0.13333333333333333,
+            "conductance": 0.2631578947368421,
+            "cut_size": 10
+        },
+        "3368": {
+            "size": 17,
+            "internal_density": 0.11764705882352941,
+            "conductance": 0.36,
+            "cut_size": 18
+        },
+        "3392": {
+            "size": 14,
+            "internal_density": 0.14285714285714285,
+            "conductance": 0.543859649122807,
+            "cut_size": 31
+        },
+        "3400": {
+            "size": 18,
+            "internal_density": 0.1111111111111111,
+            "conductance": 0.15,
+            "cut_size": 6
+        },
+        "3417": {
+            "size": 16,
+            "internal_density": 0.125,
+            "conductance": 0.4642857142857143,
+            "cut_size": 26
+        },
+        "3452": {
+            "size": 10,
+            "internal_density": 0.2,
+            "conductance": 0.28,
+            "cut_size": 7
+        },
+        "3459": {
+            "size": 10,
+            "internal_density": 0.2,
+            "conductance": 0.41935483870967744,
+            "cut_size": 13
+        },
+        "3489": {
+            "size": 31,
+            "internal_density": 0.06666666666666667,
+            "conductance": 0.1506849315068493,
+            "cut_size": 11
+        },
+        "3492": {
+            "size": 10,
+            "internal_density": 0.2,
+            "conductance": 0.28,
+            "cut_size": 7
+        },
+        "3497": {
+            "size": 20,
+            "internal_density": 0.1,
+            "conductance": 0.22448979591836735,
+            "cut_size": 11
+        },
+        "3510": {
+            "size": 10,
+            "internal_density": 0.2,
+            "conductance": 0.18181818181818182,
+            "cut_size": 4
+        },
+        "3514": {
+            "size": 17,
+            "internal_density": 0.11764705882352941,
+            "conductance": 0.3191489361702128,
+            "cut_size": 15
+        },
+        "3515": {
+            "size": 10,
+            "internal_density": 0.2,
+            "conductance": 0.25,
+            "cut_size": 6
+        },
+        "3516": {
+            "size": 15,
+            "internal_density": 0.13333333333333333,
+            "conductance": 0.2,
+            "cut_size": 7
+        },
+        "3518": {
+            "size": 12,
+            "internal_density": 0.16666666666666666,
+            "conductance": 0.21428571428571427,
+            "cut_size": 6
+        },
+        "3522": {
+            "size": 21,
+            "internal_density": 0.09523809523809523,
+            "conductance": 0.1111111111111111,
+            "cut_size": 5
+        },
+        "3533": {
+            "size": 13,
+            "internal_density": 0.15384615384615385,
+            "conductance": 0.1111111111111111,
+            "cut_size": 3
+        },
+        "3537": {
+            "size": 15,
+            "internal_density": 0.13333333333333333,
+            "conductance": 0.06666666666666667,
+            "cut_size": 2
+        },
+        "3539": {
+            "size": 12,
+            "internal_density": 0.16666666666666666,
+            "conductance": 0.37142857142857144,
+            "cut_size": 13
+        },
+        "3558": {
+            "size": 14,
+            "internal_density": 0.14285714285714285,
+            "conductance": 0.35,
+            "cut_size": 14
+        },
+        "3559": {
+            "size": 15,
+            "internal_density": 0.13333333333333333,
+            "conductance": 0.17647058823529413,
+            "cut_size": 6
+        },
+        "3563": {
+            "size": 10,
+            "internal_density": 0.2,
+            "conductance": 0.3076923076923077,
+            "cut_size": 8
+        },
+        "3582": {
+            "size": 17,
+            "internal_density": 0.11764705882352941,
+            "conductance": 0.36,
+            "cut_size": 18
+        },
+        "3601": {
+            "size": 14,
+            "internal_density": 0.14285714285714285,
+            "conductance": 0.36585365853658536,
+            "cut_size": 15
+        },
+        "3616": {
+            "size": 18,
+            "internal_density": 0.1111111111111111,
+            "conductance": 0.19047619047619047,
+            "cut_size": 8
+        },
+        "3631": {
+            "size": 14,
+            "internal_density": 0.14285714285714285,
+            "conductance": 0.23529411764705882,
+            "cut_size": 8
+        },
+        "3644": {
+            "size": 11,
+            "internal_density": 0.18181818181818182,
+            "conductance": 0.3939393939393939,
+            "cut_size": 13
+        },
+        "3709": {
+            "size": 12,
+            "internal_density": 0.16666666666666666,
+            "conductance": 0.3333333333333333,
+            "cut_size": 11
+        },
+        "3724": {
+            "size": 18,
+            "internal_density": 0.1111111111111111,
+            "conductance": 0.2916666666666667,
+            "cut_size": 14
+        },
+        "3743": {
+            "size": 16,
+            "internal_density": 0.125,
+            "conductance": 0.09090909090909091,
+            "cut_size": 3
+        },
+        "3761": {
+            "size": 11,
+            "internal_density": 0.18181818181818182,
+            "conductance": 0.09090909090909091,
+            "cut_size": 2
+        },
+        "3777": {
+            "size": 13,
+            "internal_density": 0.15384615384615385,
+            "conductance": 0.1111111111111111,
+            "cut_size": 3
+        },
+        "3780": {
+            "size": 22,
+            "internal_density": 0.09090909090909091,
+            "conductance": 0.19230769230769232,
+            "cut_size": 10
+        },
+        "3789": {
+            "size": 10,
+            "internal_density": 0.1111111111111111,
+            "conductance": 0.4117647058823529,
+            "cut_size": 7
+        },
+        "3802": {
+            "size": 12,
+            "internal_density": 0.16666666666666666,
+            "conductance": 0.3888888888888889,
+            "cut_size": 14
+        },
+        "3828": {
+            "size": 16,
+            "internal_density": 0.125,
+            "conductance": 0.4339622641509434,
+            "cut_size": 23
+        },
+        "3831": {
+            "size": 14,
+            "internal_density": 0.14285714285714285,
+            "conductance": 0.3333333333333333,
+            "cut_size": 13
+        },
+        "3835": {
+            "size": 16,
+            "internal_density": 0.125,
+            "conductance": 0.34782608695652173,
+            "cut_size": 16
+        },
+        "3848": {
+            "size": 11,
+            "internal_density": 0.18181818181818182,
+            "conductance": 0.09090909090909091,
+            "cut_size": 2
+        },
+        "3920": {
+            "size": 11,
+            "internal_density": 0.18181818181818182,
+            "conductance": 0.3548387096774194,
+            "cut_size": 11
+        },
+        "3938": {
+            "size": 12,
+            "internal_density": 0.16666666666666666,
+            "conductance": 0.45,
+            "cut_size": 18
+        },
+        "3952": {
+            "size": 16,
+            "internal_density": 0.125,
+            "conductance": 0.4117647058823529,
+            "cut_size": 21
+        },
+        "3954": {
+            "size": 10,
+            "internal_density": 0.2,
+            "conductance": 0.14285714285714285,
+            "cut_size": 3
+        },
+        "3963": {
+            "size": 14,
+            "internal_density": 0.14285714285714285,
+            "conductance": 0.2571428571428571,
+            "cut_size": 9
+        },
+        "3973": {
+            "size": 14,
+            "internal_density": 0.14285714285714285,
+            "conductance": 0.21212121212121213,
+            "cut_size": 7
+        },
+        "3992": {
+            "size": 10,
+            "internal_density": 0.2,
+            "conductance": 0.18181818181818182,
+            "cut_size": 4
+        },
+        "4002": {
+            "size": 12,
+            "internal_density": 0.16666666666666666,
+            "conductance": 0.4358974358974359,
+            "cut_size": 17
+        },
+        "4016": {
+            "size": 10,
+            "internal_density": 0.2,
+            "conductance": 0.28,
+            "cut_size": 7
+        },
+        "4092": {
+            "size": 16,
+            "internal_density": 0.125,
+            "conductance": 0.375,
+            "cut_size": 18
+        },
+        "4102": {
+            "size": 10,
+            "internal_density": 0.2,
+            "conductance": 0.4,
+            "cut_size": 12
+        },
+        "4115": {
+            "size": 26,
+            "internal_density": 0.07692307692307693,
+            "conductance": 0.10714285714285714,
+            "cut_size": 6
+        },
+        "4119": {
+            "size": 13,
+            "internal_density": 0.15384615384615385,
+            "conductance": 0.2727272727272727,
+            "cut_size": 9
+        },
+        "4166": {
+            "size": 10,
+            "internal_density": 0.2,
+            "conductance": 0.05263157894736842,
+            "cut_size": 1
+        },
+        "4181": {
+            "size": 20,
+            "internal_density": 0.1,
+            "conductance": 0.32142857142857145,
+            "cut_size": 18
+        },
+        "4192": {
+            "size": 10,
+            "internal_density": 0.2,
+            "conductance": 0.21739130434782608,
+            "cut_size": 5
+        },
+        "4225": {
+            "size": 18,
+            "internal_density": 0.1111111111111111,
+            "conductance": 0.22727272727272727,
+            "cut_size": 10
+        },
+        "4230": {
+            "size": 10,
+            "internal_density": 0.2,
+            "conductance": 0.18181818181818182,
+            "cut_size": 4
+        },
+        "4234": {
+            "size": 12,
+            "internal_density": 0.16666666666666666,
+            "conductance": 0.21428571428571427,
+            "cut_size": 6
+        },
+        "4239": {
+            "size": 14,
+            "internal_density": 0.14285714285714285,
+            "conductance": 0.3157894736842105,
+            "cut_size": 12
+        },
+        "4253": {
+            "size": 10,
+            "internal_density": 0.2,
+            "conductance": 0.3333333333333333,
+            "cut_size": 9
+        },
+        "4261": {
+            "size": 18,
+            "internal_density": 0.1111111111111111,
+            "conductance": 0.05555555555555555,
+            "cut_size": 2
+        },
+        "4285": {
+            "size": 10,
+            "internal_density": 0.2,
+            "conductance": 0.35714285714285715,
+            "cut_size": 10
+        },
+        "4296": {
+            "size": 14,
+            "internal_density": 0.14285714285714285,
+            "conductance": 0.2972972972972973,
+            "cut_size": 11
+        },
+        "4303": {
+            "size": 10,
+            "internal_density": 0.17777777777777778,
+            "conductance": 0.42857142857142855,
+            "cut_size": 12
+        },
+        "4347": {
+            "size": 11,
+            "internal_density": 0.18181818181818182,
+            "conductance": 0.48717948717948717,
+            "cut_size": 19
+        },
+        "4362": {
+            "size": 10,
+            "internal_density": 0.2,
+            "conductance": 0.14285714285714285,
+            "cut_size": 3
+        },
+        "4378": {
+            "size": 11,
+            "internal_density": 0.18181818181818182,
+            "conductance": 0.16666666666666666,
+            "cut_size": 4
+        },
+        "4395": {
+            "size": 12,
+            "internal_density": 0.16666666666666666,
+            "conductance": 0.043478260869565216,
+            "cut_size": 1
+        },
+        "4406": {
+            "size": 11,
+            "internal_density": 0.18181818181818182,
+            "conductance": 0.13043478260869565,
+            "cut_size": 3
+        },
+        "4453": {
+            "size": 10,
+            "internal_density": 0.2,
+            "conductance": 0.3076923076923077,
+            "cut_size": 8
+        },
+        "4468": {
+            "size": 17,
+            "internal_density": 0.11764705882352941,
+            "conductance": 0.37254901960784315,
+            "cut_size": 19
+        },
+        "4506": {
+            "size": 10,
+            "internal_density": 0.2,
+            "conductance": 0.3793103448275862,
+            "cut_size": 11
+        },
+        "4511": {
+            "size": 15,
+            "internal_density": 0.13333333333333333,
+            "conductance": 0.0967741935483871,
+            "cut_size": 3
+        },
+        "4545": {
+            "size": 14,
+            "internal_density": 0.14285714285714285,
+            "conductance": 0.07142857142857142,
+            "cut_size": 2
+        },
+        "4558": {
+            "size": 16,
+            "internal_density": 0.125,
+            "conductance": 0.16666666666666666,
+            "cut_size": 6
+        },
+        "4694": {
+            "size": 12,
+            "internal_density": 0.16666666666666666,
+            "conductance": 0.45,
+            "cut_size": 18
+        },
+        "4795": {
+            "size": 13,
+            "internal_density": 0.08974358974358974,
+            "conductance": 0.36363636363636365,
+            "cut_size": 8
+        },
+        "4813": {
+            "size": 14,
+            "internal_density": 0.14285714285714285,
+            "conductance": 0.46938775510204084,
+            "cut_size": 23
+        },
+        "4822": {
+            "size": 12,
+            "internal_density": 0.16666666666666666,
+            "conductance": 0.15384615384615385,
+            "cut_size": 4
+        },
+        "4883": {
+            "size": 10,
+            "internal_density": 0.1111111111111111,
+            "conductance": 0.5238095238095238,
+            "cut_size": 11
+        },
+        "4954": {
+            "size": 10,
+            "internal_density": 0.2,
+            "conductance": 0.14285714285714285,
+            "cut_size": 3
+        },
+        "4965": {
+            "size": 11,
+            "internal_density": 0.18181818181818182,
+            "conductance": 0.09090909090909091,
+            "cut_size": 2
+        },
+        "4984": {
+            "size": 11,
+            "internal_density": 0.18181818181818182,
+            "conductance": 0.3333333333333333,
+            "cut_size": 10
+        },
+        "5027": {
+            "size": 10,
+            "internal_density": 0.2,
+            "conductance": 0.3793103448275862,
+            "cut_size": 11
+        },
+        "5033": {
+            "size": 15,
+            "internal_density": 0.13333333333333333,
+            "conductance": 0.44,
+            "cut_size": 22
+        },
+        "5104": {
+            "size": 14,
+            "internal_density": 0.14285714285714285,
+            "conductance": 0.2972972972972973,
+            "cut_size": 11
+        },
+        "5262": {
+            "size": 11,
+            "internal_density": 0.18181818181818182,
+            "conductance": 0.3333333333333333,
+            "cut_size": 10
+        },
+        "5276": {
+            "size": 11,
+            "internal_density": 0.2,
+            "conductance": 0.26666666666666666,
+            "cut_size": 8
+        },
+        "5335": {
+            "size": 20,
+            "internal_density": 0.1,
+            "conductance": 0.09523809523809523,
+            "cut_size": 4
+        },
+        "5340": {
+            "size": 10,
+            "internal_density": 0.2,
+            "conductance": 0.4375,
+            "cut_size": 14
+        },
+        "5382": {
+            "size": 15,
+            "internal_density": 0.13333333333333333,
+            "conductance": 0.3488372093023256,
+            "cut_size": 15
+        },
+        "5457": {
+            "size": 10,
+            "internal_density": 0.2,
+            "conductance": 0.5263157894736842,
+            "cut_size": 20
+        },
+        "5471": {
+            "size": 10,
+            "internal_density": 0.2,
+            "conductance": 0.18181818181818182,
+            "cut_size": 4
+        },
+        "5538": {
+            "size": 11,
+            "internal_density": 0.18181818181818182,
+            "conductance": 0.23076923076923078,
+            "cut_size": 6
+        },
+        "5576": {
+            "size": 11,
+            "internal_density": 0.16363636363636364,
+            "conductance": 0.3333333333333333,
+            "cut_size": 9
+        },
+        "5674": {
+            "size": 10,
+            "internal_density": 0.2,
+            "conductance": 0.25,
+            "cut_size": 6
+        },
+        "5720": {
+            "size": 10,
+            "internal_density": 0.2,
+            "conductance": 0.3076923076923077,
+            "cut_size": 8
+        },
+        "5802": {
+            "size": 10,
+            "internal_density": 0.2,
+            "conductance": 0.35714285714285715,
+            "cut_size": 10
+        },
+        "6151": {
+            "size": 21,
+            "internal_density": 0.09523809523809523,
+            "conductance": 0.16666666666666666,
+            "cut_size": 8
+        },
+        "6152": {
+            "size": 16,
+            "internal_density": 0.125,
+            "conductance": 0.34782608695652173,
+            "cut_size": 16
+        },
+        "6195": {
+            "size": 13,
+            "internal_density": 0.15384615384615385,
+            "conductance": 0.3333333333333333,
+            "cut_size": 12
+        },
+        "6208": {
+            "size": 10,
+            "internal_density": 0.2,
+            "conductance": 0.3076923076923077,
+            "cut_size": 8
+        },
+        "6217": {
+            "size": 12,
+            "internal_density": 0.16666666666666666,
+            "conductance": 0.21428571428571427,
+            "cut_size": 6
+        },
+        "6560": {
+            "size": 12,
+            "internal_density": 0.16666666666666666,
+            "conductance": 0.08333333333333333,
+            "cut_size": 2
+        },
+        "6574": {
+            "size": 10,
+            "internal_density": 0.2,
+            "conductance": 0.3793103448275862,
+            "cut_size": 11
+        },
+        "6615": {
+            "size": 10,
+            "internal_density": 0.2,
+            "conductance": 0.21739130434782608,
+            "cut_size": 5
+        },
+        "6979": {
+            "size": 11,
+            "internal_density": 0.18181818181818182,
+            "conductance": 0.25925925925925924,
+            "cut_size": 7
+        },
+        "7115": {
+            "size": 11,
+            "internal_density": 0.18181818181818182,
+            "conductance": 0.2,
+            "cut_size": 5
+        },
+        "7210": {
+            "size": 13,
+            "internal_density": 0.15384615384615385,
+            "conductance": 0.3684210526315789,
+            "cut_size": 14
+        },
+        "7431": {
+            "size": 10,
+            "internal_density": 0.2,
+            "conductance": 0.28,
+            "cut_size": 7
+        },
+        "7617": {
+            "size": 10,
+            "internal_density": 0.2,
+            "conductance": 0.05263157894736842,
+            "cut_size": 1
+        },
+        "7998": {
+            "size": 12,
+            "internal_density": 0.16666666666666666,
+            "conductance": 0.2903225806451613,
+            "cut_size": 9
+        },
+        "8261": {
+            "size": 10,
+            "internal_density": 0.2222222222222222,
+            "conductance": 0.3548387096774194,
+            "cut_size": 11
+        },
+        "8336": {
+            "size": 13,
+            "internal_density": 0.15384615384615385,
+            "conductance": 0.25,
+            "cut_size": 8
+        },
+        "8372": {
+            "size": 11,
+            "internal_density": 0.18181818181818182,
+            "conductance": 0.25925925925925924,
+            "cut_size": 7
+        },
+        "8538": {
+            "size": 10,
+            "internal_density": 0.2,
+            "conductance": 0.14285714285714285,
+            "cut_size": 3
+        },
+        "8669": {
+            "size": 10,
+            "internal_density": 0.2,
+            "conductance": 0.3793103448275862,
+            "cut_size": 11
+        },
+        "8751": {
+            "size": 10,
+            "internal_density": 0.2,
+            "conductance": 0.4375,
+            "cut_size": 14
+        },
+        "9655": {
+            "size": 12,
+            "internal_density": 0.16666666666666666,
+            "conductance": 0.15384615384615385,
+            "cut_size": 4
+        },
+        "9688": {
+            "size": 10,
+            "internal_density": 0.2,
+            "conductance": 0.14285714285714285,
+            "cut_size": 3
+        },
+        "9737": {
+            "size": 10,
+            "internal_density": 0.2,
+            "conductance": 0.21739130434782608,
+            "cut_size": 5
+        },
+        "9741": {
+            "size": 10,
+            "internal_density": 0.2,
+            "conductance": 0.1,
+            "cut_size": 2
+        },
+        "9811": {
+            "size": 12,
+            "internal_density": 0.16666666666666666,
+            "conductance": 0.3125,
+            "cut_size": 10
+        },
+        "11052": {
+            "size": 10,
+            "internal_density": 0.2,
+            "conductance": 0.25,
+            "cut_size": 6
+        }
+    }
+}

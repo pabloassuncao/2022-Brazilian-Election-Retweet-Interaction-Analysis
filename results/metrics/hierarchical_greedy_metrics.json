@@ -1,0 +1,24 @@
+{
+    "algorithm": "hierarchical_greedy",
+    "modularity": 0.5370621818929233,
+    "bubble_metrics": {
+        "0": {
+            "size": 317709,
+            "internal_density": 5.5707122272467345e-05,
+            "conductance": 0.15560659254090153,
+            "cut_size": 1036219
+        },
+        "1": {
+            "size": 243686,
+            "internal_density": 0.00010041095707471504,
+            "conductance": 0.03468012415974988,
+            "cut_size": 214215
+        },
+        "2": {
+            "size": 772966,
+            "internal_density": 6.1328991616213325e-06,
+            "conductance": 0.2251784882063722,
+            "cut_size": 1064906
+        }
+    }
+}
