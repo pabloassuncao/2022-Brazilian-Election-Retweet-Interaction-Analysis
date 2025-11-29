@@ -92,6 +92,31 @@ We compare multiple approaches to community detection:
 | **Greedy Modularity** | Agglomerative | Hierarchical structure analysis |
 | **Hierarchical** | Hybrid (Coarsening) | Massive graphs (reduces size before detection) |
 
+## 📏 Metrics Explained
+
+The pipeline calculates several metrics to measure filter bubble strength and community isolation:
+
+### Modularity
+Measures how well-defined communities are. Higher values (0.3+) indicate strong community structure with more edges within communities than expected by chance.
+
+### Community-Level Metrics
+
+For each community with 10+ members, we calculate:
+
+| Metric | Range | Interpretation |
+| :--- | :--- | :--- |
+| **Conductance** | 0.0 - 1.0 | **Lower = Stronger Bubble**. Measures the fraction of edges leaving the community. Low conductance (< 0.3) indicates an echo chamber where information rarely flows out. |
+| **Internal Density** | 0.0 - 1.0 | **Higher = More Cohesive**. Measures how many possible connections within the community actually exist. High density (> 0.5) indicates tight-knit groups. |
+
+### Network-Wide Metrics
+
+To summarize the entire network:
+
+-   **Weighted Avg Conductance**: Average conductance across all communities, weighted by community size. Larger communities have more influence on this value, providing a realistic measure of overall network isolation.
+-   **Weighted Avg Internal Density**: Average internal density weighted by community size. Indicates overall network cohesion, with emphasis on larger communities that affect more users.
+
+**Why Weighted?** A network with one large isolated bubble (1000 users) and many small open groups (10 users each) should reflect the isolation experienced by the majority. Weighted averages ensure larger communities appropriately influence the overall metric.
+
 ## 📊 Visualization Guide (Gephi)
 
 The pipeline exports `.gexf` files to `results/visual/`. Follow these exact steps to achieve high-quality visualizations:

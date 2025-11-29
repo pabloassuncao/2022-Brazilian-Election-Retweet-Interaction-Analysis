@@ -1,6 +1,8 @@
 {
     "algorithm": "leiden",
     "modularity": 0.5394137430874735,
+    "weighted_avg_conductance": 0.17249031006127535,
+    "weighted_avg_internal_density": 0.000289587881547446,
     "bubble_metrics": {
         "0": {
             "size": 628492,

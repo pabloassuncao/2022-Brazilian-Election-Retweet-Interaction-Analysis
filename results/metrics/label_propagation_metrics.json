@@ -1,6 +1,8 @@
 {
     "algorithm": "label_propagation",
     "modularity": 0.4807120371035401,
+    "weighted_avg_conductance": 0.056183772230300084,
+    "weighted_avg_internal_density": 0.0013171741982075187,
     "bubble_metrics": {
         "0": {
             "size": 275130,

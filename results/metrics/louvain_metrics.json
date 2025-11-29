@@ -1,6 +1,8 @@
 {
     "algorithm": "louvain",
     "modularity": 0.5454790379214803,
+    "weighted_avg_conductance": 0.18408782697499781,
+    "weighted_avg_internal_density": 0.0003082924930048224,
     "bubble_metrics": {
         "0": {
             "size": 240843,

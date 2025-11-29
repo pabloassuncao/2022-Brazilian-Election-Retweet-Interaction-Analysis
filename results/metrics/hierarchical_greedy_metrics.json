@@ -1,6 +1,8 @@
 {
     "algorithm": "hierarchical_greedy",
     "modularity": 0.5370621818929233,
+    "weighted_avg_conductance": 0.173824018358223,
+    "weighted_avg_internal_density": 3.515384602003066e-05,
     "bubble_metrics": {
         "0": {
             "size": 317709,

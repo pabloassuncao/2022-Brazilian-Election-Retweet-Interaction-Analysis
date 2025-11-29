@@ -81,3 +81,51 @@ def calculate_bubble_metrics(G, partition):
         }
         
     return metrics
+
+def calculate_weighted_avg_conductance(bubble_metrics):
+    """
+    Calculates the average conductance weighted by community size.
+    
+    Args:
+        bubble_metrics (dict): Output from calculate_bubble_metrics()
+        
+    Returns:
+        float: Weighted average conductance across all communities
+    """
+    if not bubble_metrics:
+        return 0.0
+    
+    total_weighted_conductance = 0.0
+    total_size = 0
+    
+    for comm_id, metrics in bubble_metrics.items():
+        size = metrics['size']
+        conductance = metrics['conductance']
+        total_weighted_conductance += conductance * size
+        total_size += size
+    
+    return total_weighted_conductance / total_size if total_size > 0 else 0.0
+
+def calculate_weighted_avg_internal_density(bubble_metrics):
+    """
+    Calculates the average internal density weighted by community size.
+    
+    Args:
+        bubble_metrics (dict): Output from calculate_bubble_metrics()
+        
+    Returns:
+        float: Weighted average internal density across all communities
+    """
+    if not bubble_metrics:
+        return 0.0
+    
+    total_weighted_density = 0.0
+    total_size = 0
+    
+    for comm_id, metrics in bubble_metrics.items():
+        size = metrics['size']
+        internal_density = metrics['internal_density']
+        total_weighted_density += internal_density * size
+        total_size += size
+    
+    return total_weighted_density / total_size if total_size > 0 else 0.0

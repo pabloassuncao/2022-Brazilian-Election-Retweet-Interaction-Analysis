@@ -92,6 +92,31 @@ Comparamos várias abordagens para detecção de comunidades:
 | **Greedy Modularity** | Aglomerativo | Análise de estrutura hierárquica |
 | **Hierarchical** | Híbrido (Coarsening) | Grafos massivos (reduz tamanho antes da detecção) |
 
+## 📏 Métricas Explicadas
+
+O pipeline calcula várias métricas para medir a força de bolhas de filtro e isolamento de comunidades:
+
+### Modularidade
+Mede quão bem-definidas são as comunidades. Valores mais altos (0.3+) indicam forte estrutura comunitária com mais arestas dentro das comunidades do que esperado ao acaso.
+
+### Métricas por Comunidade
+
+Para cada comunidade com 10+ membros, calculamos:
+
+| Métrica | Intervalo | Interpretação |
+| :--- | :--- | :--- |
+| **Condutância** | 0.0 - 1.0 | **Menor = Bolha Mais Forte**. Mede a fração de arestas saindo da comunidade. Baixa condutância (< 0.3) indica uma câmara de eco onde informações raramente saem. |
+| **Densidade Interna** | 0.0 - 1.0 | **Maior = Mais Coeso**. Mede quantas conexões possíveis dentro da comunidade realmente existem. Alta densidade (> 0.5) indica grupos bem conectados. |
+
+### Métricas da Rede Completa
+
+Para resumir a rede inteira:
+
+-   **Condutância Média Ponderada**: Condutância média de todas as comunidades, ponderada pelo tamanho da comunidade. Comunidades maiores têm mais influência neste valor, fornecendo uma medida realista do isolamento geral da rede.
+-   **Densidade Interna Média Ponderada**: Densidade interna média ponderada pelo tamanho da comunidade. Indica coesão geral da rede, com ênfase em comunidades maiores que afetam mais usuários.
+
+**Por que Ponderado?** Uma rede com uma grande bolha isolada (1000 usuários) e muitos pequenos grupos abertos (10 usuários cada) deve refletir o isolamento experimentado pela maioria. Médias ponderadas garantem que comunidades maiores influenciem apropriadamente a métrica geral.
+
 ## 📊 Guia de Visualização (Gephi)
 
 O pipeline exporta arquivos `.gexf` para `results/visual/`. Siga estes passos exatos para obter visualizações de alta qualidade:

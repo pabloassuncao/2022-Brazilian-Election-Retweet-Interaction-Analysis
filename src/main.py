@@ -30,7 +30,7 @@ COMBINED_NODE_DISTRIBUTION = 'PROPORTIONAL'
 #            "hierarchical_greedy", "hierarchical_girvan", "leiden"
 # WARNING: "greedy_modularity" and "girvan_newman" are very slow/memory intensive on large graphs.
 # Use USE_SUBGRAPH = True for them.
-ALGORITHMS_TO_RUN = ["leiden"] 
+ALGORITHMS_TO_RUN = ["louvain", "label_propagation", "leiden", "hierarchical_greedy"] 
 # ALGORITHMS_TO_RUN = ["louvain", "label_propagation", "greedy_modularity", "asyn_lpa"] # Full run (risky) 
 # ALGORITHMS_TO_RUN = ["louvain", "label_propagation", "greedy_modularity", "asyn_lpa"] # Full run (risky) 
 # ALGORITHMS_TO_RUN = ["louvain", "label_propagation", "greedy_modularity", "asyn_lpa"] # Full run (risky) 
@@ -39,7 +39,7 @@ ALGORITHMS_TO_RUN = ["leiden"]
 USE_SUBGRAPH = False
 SUBGRAPH_SIZE = 1000 # Number of nodes for the subgraph (Top Degree)
 
-def save_results(algorithm_name, partition, mod_score, bubble_metrics, G_gcc):
+def save_results(algorithm_name, partition, mod_score, bubble_metrics, weighted_avg_conductance, weighted_avg_internal_density, G_gcc):
     """Saves analysis results to files."""
     print(f"Saving results for {algorithm_name}...")
     
@@ -47,7 +47,9 @@ def save_results(algorithm_name, partition, mod_score, bubble_metrics, G_gcc):
     metrics_data = {
         "algorithm": algorithm_name,
         "modularity": mod_score,
-        "bubble_metrics": bubble_metrics
+        "bubble_metrics": bubble_metrics,
+        "weighted_avg_conductance": weighted_avg_conductance,
+        "weighted_avg_internal_density": weighted_avg_internal_density
     }
     
     metrics_file = os.path.join(RESULTS_DIR, "metrics", f"{algorithm_name}_metrics.json")
@@ -214,17 +216,25 @@ def main():
         bubble_metrics = metrics.calculate_bubble_metrics(G_work, partition)
         part_stats = metrics.calculate_partition_stats(G_work, partition)
         
+        # Calculate weighted average metrics
+        weighted_avg_conductance = metrics.calculate_weighted_avg_conductance(bubble_metrics)
+        weighted_avg_internal_density = metrics.calculate_weighted_avg_internal_density(bubble_metrics)
+        
         print(f"Modularity: {mod_score:.4f}")
         print(f"Communities found: {part_stats['num_communities']}")
+        print(f"Weighted Avg Conductance: {weighted_avg_conductance:.4f}")
+        print(f"Weighted Avg Internal Density: {weighted_avg_internal_density:.4f}")
         
         # Save
-        save_results(name, partition, mod_score, bubble_metrics, G_work)
+        save_results(name, partition, mod_score, bubble_metrics, weighted_avg_conductance, weighted_avg_internal_density, G_work)
         
         comparison_results.append({
             "algorithm": name,
             "modularity": mod_score,
             "num_communities": part_stats['num_communities'],
-            "avg_community_size": part_stats['avg_community_size']
+            "avg_community_size": part_stats['avg_community_size'],
+            "weighted_avg_conductance": weighted_avg_conductance,
+            "weighted_avg_internal_density": weighted_avg_internal_density
         })
 
     # 4. Save Comparison
